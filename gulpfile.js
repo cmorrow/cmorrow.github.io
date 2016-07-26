@@ -15,7 +15,7 @@ gulp.task('sass', () => {
   gulp.src(sassFiles)
     .pipe(sass())
     .pipe(concat('main.css'))
-    .pipe(gulp.dest(siteRoot + '/css'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream());
 });
 
