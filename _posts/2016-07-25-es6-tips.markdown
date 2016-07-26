@@ -8,7 +8,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 {% highlight js linenos %}
 
-var num1 = 100;
+var num1 = 101;
 var num2 = 58;
 var total = num1 + num2;
 
