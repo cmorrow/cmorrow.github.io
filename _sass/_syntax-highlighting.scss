@@ -9,8 +9,9 @@
       background: #eef;
     }
 
-    pre {
+    pre, code {
         border:none;
+        background-color: transparent;
     }
 
     .gutter pre {
