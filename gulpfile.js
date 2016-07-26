@@ -15,7 +15,7 @@ gulp.task('sass', () => {
   gulp.src(sassFiles)
     .pipe(sass())
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./assets/css'))
     .pipe(browserSync.stream());
 });
 
@@ -48,8 +48,13 @@ gulp.task('serve', () => {
     }
   });
 
+  // reload page
   gulp.watch([sassFiles], ['sass']).on("change", reload);
-  gulp.watch(["*.html", '*.js', '_posts/**/*.*'], ['jekyll']);
+
+  // build jekyll after save
+  gulp.watch(['_includes/**/*.*', '_layouts/**/*.*',
+    'assets/**/*.js', '_drafts/**/*.*', '_posts/**/*.*'
+    ], ['jekyll']);
 });
 
 gulp.task('default', ['sass', 'jekyll', 'serve']);

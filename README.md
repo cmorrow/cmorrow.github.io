@@ -3,8 +3,9 @@ This site uses Jekyll with the following plugins:
 - Jekyll Compose (generate posts, pages, and drafts)
 
 ## Installation
-npm install
-bundle - bundle all ruby gems
+    $ npm install
+    $ gem install chronic
+    $ bundle - bundle all ruby gems
 
 ## Jekyll Compose Usage
 

@@ -15,6 +15,16 @@ url: "http://chrisjmorrow.com" # the base hostname & protocol for your site
 twitter_username: _ChrisMorrow
 github_username:  cmorrow
 
+post:
+  template: _post.txt
+  extension: md
+
+page:
+  template: _page.txt
+  extension: md
+
+editor: subl
+
 # Build settings
 markdown: kramdown
 
