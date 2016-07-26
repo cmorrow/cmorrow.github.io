@@ -20,3 +20,6 @@ markdown: kramdown
 
 # Server settings
 livereload: true    # You no longer need to include --livereload
+
+# exclude directories
+exclude: [vendor]
