@@ -5,6 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+
+url: "https://cmorrow.github.io"
+baseurl: ''
+
 # Site settings
 title: Chris Morrow
 email: chris@chrisjmorrow.com
@@ -32,4 +36,13 @@ markdown: kramdown
 livereload: true    # You no longer need to include --livereload
 
 # exclude directories
-exclude: [vendor]
+exclude: ['_src',
+          'script',
+          'gulpfile.js', 
+          'vendor',
+          'Gemfile',
+          'Gemfile.lock',
+          'node_modules',
+          'package.json',
+          'Rakefile',
+          'README.md']
