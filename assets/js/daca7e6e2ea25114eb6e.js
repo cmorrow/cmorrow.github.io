@@ -51,7 +51,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	var cats = ['fluffy', 'Fred', 'FuFu'];
+	var cats = ['fluffy', 'happy', 'FuFu'];
 	module.exports = cats;
 
 /***/ }

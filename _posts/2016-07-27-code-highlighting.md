@@ -16,6 +16,7 @@ var num = 2;
 ### Liquid Templating Example
 {% highlight js linenos %}
 
+// liquid templating allows for line numbers
 var num1 = 101;
 var num2 = 58;
 var total = num1 + num2;

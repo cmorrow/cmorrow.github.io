@@ -1,2 +1,2 @@
-var cats = ['dave', 'henry', 'martha'];
+var cats = ['fluffy', 'Fred', 'FuFu'];
 module.exports = cats;
