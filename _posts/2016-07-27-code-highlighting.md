@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Code Highlighting"
+title:  "Code Highlighting Sample"
 date:   2016-07-27 14:36:00 -0400
 categories: jekyll update
 ---
