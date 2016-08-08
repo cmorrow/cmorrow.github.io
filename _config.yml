@@ -19,6 +19,9 @@ url: "http://chrisjmorrow.com" # the base hostname & protocol for your site
 twitter_username: _ChrisMorrow
 github_username:  cmorrow
 
+git:
+  branch: master
+
 post:
   template: _post.txt
   extension: md
