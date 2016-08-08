@@ -121,7 +121,7 @@ task :publish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
-    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
+    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{filename}")
     puts "#{filename} was moved to '#{POSTS}'."
   else
     puts "Please choose a draft by the assigned number."
@@ -140,7 +140,7 @@ task :unpublish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{POSTS}/", "")
-    FileUtils.mv("#{POSTS}/#{filename}", "#{DRAFTS}/#{DATE}-#{filename}")
+    FileUtils.mv("#{POSTS}/#{filename}", "#{DRAFTS}/#{filename}")
     puts "#{filename} was moved to '#{DRAFTS}'."
   else
     puts "Please choose a post by the assigned number."
