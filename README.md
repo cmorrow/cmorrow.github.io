@@ -34,5 +34,10 @@ Create a new draft using:
 
 Publish a draft using:
 
-    $ rake publish _drafts/my-new-draft.md
+    $ rake publish
+    $ [enter number of draft to publish][ENTER]
+
+Deploy site using:
+
+    $ rake deploy["my commit message"]
 
