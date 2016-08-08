@@ -128,6 +128,25 @@ task :publish do
   end
 end
 
+# rake unpublish
+desc "Move a post from _posts to _drafts"
+task :unpublish do
+  extension = CONFIG["post"]["extension"]
+  files = Dir["#{POSTS}/*.#{extension}"]
+  files.each_with_index do |file, index|
+    puts "#{index + 1}: #{file}".sub("#{POSTS}/", "")
+  end
+  print "> "
+  number = $stdin.gets
+  if number =~ /\D/
+    filename = files[number.to_i - 1].sub("#{POSTS}/", "")
+    FileUtils.mv("#{POSTS}/#{filename}", "#{DRAFTS}/#{DATE}-#{filename}")
+    puts "#{filename} was moved to '#{DRAFTS}'."
+  else
+    puts "Please choose a post by the assigned number."
+  end
+end
+
 # rake page["Title"]
 # rake page["Title","Path/to/folder"]
 desc "Create a page (optional filepath)"
