@@ -1,3 +1,94 @@
-body {
-	background-color: #efefef;
+
+
+.sidebar {
+
+	section {
+		margin-bottom: $gutter;
+		padding-bottom: $gutter/2;
+		border-bottom: solid 1px $grey-light;
+
+		&:last-child {
+			border: none;
+		}
+	}
+
+	.tags {
+		
+		.tag {
+			display: inline-block;
+			color: $tag-color;
+			background-color: $tag-bg;
+			padding: 0 0 0 5px;
+			border-radius: 5px;
+			font-size: .8em;
+
+			.count {
+				display: inline-block;
+				margin-left: 3px;
+				padding: 2px 8px;
+				color: $tag-count-color;
+				background-color: $tag-count-bg;
+				border-radius: 5px;
+			}
+		}
+	}
+}
+
+
+// post list used in sidebar
+.post-list {
+	.post {
+		display:inline-block;
+		font-size: .9em;
+		padding-bottom: $gutter/2;
+		margin-bottom: $gutter/2;
+		border-bottom: solid 1px $grey-light;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+	.date {
+		font-size: 1em;
+	}
+}
+
+
+
+// post page
+
+.sidebar-wrapper {
+	height:100%;
+	position:relative;
+
+	&:after {
+		content: ' ';
+		position: absolute;
+		width:1px;
+		height: 100%;
+		top:0;
+		bottom: 0;
+		border-right: solid 1px $grey-light;
+	}
+
+}
+
+@media #{$small-up} {
+	.sidebar-wrapper:after {
+		display:none;
+	}
+}
+
+@media #{$medium-up} {
+	.sidebar-wrapper:after {
+		display: block;
+		left: 66.6666666667%;
+	}
+}
+
+@media #{$large-up} {
+	.sidebar-wrapper:after {
+		display: block;
+		left: 75%;
+	}
 }

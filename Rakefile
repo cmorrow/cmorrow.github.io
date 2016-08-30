@@ -29,7 +29,7 @@ def execute(command)
   system "#{command}"
 end
 
-# Chech the title
+# Check the title
 def check_title(title)
   if title.nil? or title.empty?
     raise "Please add a title to your file."
@@ -70,6 +70,38 @@ def create_file(directory, filename, content, title, editor)
   end
 end
 
+# Save the file with the title in the YAML front matter
+def writeFile(content, title, directory, filename)
+  parsed_content = "#{content.sub("title:", "title: \"#{title}\"")}"
+  parsed_content = "#{parsed_content.sub("date:", "date: #{POST_TIME}")}"
+  File.write("#{directory}/#{filename}", parsed_content)
+  puts "#{filename} was created in '#{directory}'."
+end
+
+# Create the file with the slug and open the default editor
+def createCategory(directory, filename, content, category)
+  FileUtils.mkdir(directory) unless File.exists?(directory)
+  if File.exists?("#{directory}/#{filename}")
+    raise "The file already exists."
+  else
+    parsed_content = "#{content.sub("category:", "category: #{category}")}"
+    File.write("#{directory}/#{filename}", parsed_content)
+    puts "#{category} was created in '#{directory}'."
+  end
+end
+
+# Create the file with the slug and open the default editor
+def createTag(directory, filename, content, tag)
+  FileUtils.mkdir(directory) unless File.exists?(directory)
+  if File.exists?("#{directory}/#{filename}")
+    raise "The file already exists."
+  else
+    parsed_content = "#{content.sub("tag:", "tag: #{tag}")}"
+    File.write("#{directory}/#{filename}", parsed_content)
+    puts "#{tag} was created in '#{directory}'."
+  end
+end
+
 # Get the "open" command
 def open_command
   if RbConfig::CONFIG["host_os"] =~ /mswin|mingw/
@@ -82,6 +114,30 @@ def open_command
 end
 
 # == Tasks =====================================================================
+
+# create category
+# usage: rake category["Web Development"]
+desc "Create a category"
+task :category, :title do |t, args|
+  title = args[:title]
+  template = File.join("_templates/", CONFIG["category"]["template"])
+  check_title(title)
+  filename = "index.html"
+  content = read_file(template)
+  createCategory("category/#{title.downcase}", filename, content, title)
+end
+
+# create tag
+# usage: rake tag["Data Visualization"]
+desc "Create a tag"
+task :tag, :title do |t, args|
+  title = args[:title]
+  template = File.join("_templates/", CONFIG["tag"]["template"])
+  check_title(title)
+  filename = "index.html"
+  content = read_file(template)
+  createTag("tag/#{title.downcase}", filename, content, title)
+end
 
 # rake post["Title"]
 desc "Create a post in _posts"
@@ -121,7 +177,7 @@ task :publish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
-    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{filename}")
+    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
     puts "#{filename} was moved to '#{POSTS}'."
   else
     puts "Please choose a draft by the assigned number."

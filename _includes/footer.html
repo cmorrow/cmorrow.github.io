@@ -1,18 +1,21 @@
-<footer class="site-footer">
+  <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <div class="row">
+      <div class="column medium-4">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.email %}
+          <li>
+          {% include email.html email=site.email %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="column medium-4">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -28,8 +31,8 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="column medium-4">
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
     </div>
 
@@ -39,3 +42,4 @@
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
+<script src="/assets/js/search.js"></script>

@@ -20,6 +20,10 @@ Listed in help you will see new commands available to you:
   page       # Creates a new page with the given NAME
 ```
 
+## Markdown
+  The site uses markdown for writing posts. For a quick guide refer to the cheat sheet below.
+  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 Create a new page using:
 
     $ rake page["My New Page"]
@@ -36,6 +40,12 @@ Publish a draft using:
 
     $ rake publish
     $ [enter number of draft to publish][ENTER]
+
+Create a new Category for the Site
+    $ rake category["Web Development"]
+
+Create a new Tag for the Site
+    $ rake tag["fun stuff"]
 
 Deploy site using:
 

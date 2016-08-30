@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 
-url: "https://cmorrow.github.io"
+url: "https://theweathercompany.github.io/analytics/"
 baseurl: ''
 
 # Site settings
@@ -15,12 +15,19 @@ email: chris@chrisjmorrow.com
 description: > # this means to ignore newlines until "baseurl:"
   This site is aimed to be a small way to share my lessons learned in web development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://chrisjmorrow.com" # the base hostname & protocol for your site
+url: "https://cmorrow.github.io/" # the base hostname & protocol for your site
 twitter_username: _ChrisMorrow
-github_username:  cmorrow
+categories: Web Development
+tags: [javascript, d3, Angular, React]
 
 git:
   branch: master
+
+category:
+  template: _category.txt
+
+tag:
+  template: _tag.txt
 
 post:
   template: _post.txt

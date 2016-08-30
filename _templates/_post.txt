@@ -2,4 +2,7 @@
 title:
 layout: post
 date:
+author:
+category:
+tags: []
 ---

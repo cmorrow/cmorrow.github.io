@@ -21,8 +21,10 @@ const site = '_site';
 const imageFiles = src + '/images/**/*'
 const sassFiles = [src + '/_sass/*.scss', src + '/foundation-sites/scss/**/*.scss']
 const jsFiles = src + '/js/**/*.js';
-
-const webpackConfig = require('./webpack.config.js');
+const htmlFiles = ['./_config.yml', './*.html', './tag/**/*.html', './category/**/*.html',
+  './_drafts/**/*.{md,markdown,html}', './_includes/**/*.{md,markdown,html}', 
+  './_layouts/**/*.{md,markdown,html}', './_posts/*.{md,markdown,html}'
+      ];
 
 // check for production flag
 const PRODUCTION = !!(process.argv.production);
@@ -62,17 +64,21 @@ gulp.task('sass', () => {
 // Combine JavaScript into one file
 // In production, the file is minified
 gulp.task('javascript', () => {
-  gulp.src(src + '/js/app.js')
+  gulp.src([src + '/js/global/**/*.js', src + '/js/vendor/**/*.js'])
     .pipe($.sourcemaps.init())
-    // .pipe(concat('app.js'))
     .pipe(gulpif(!PRODUCTION, $.sourcemaps.write()))
-    .pipe(gulpWebpack({}, webpack))
     .pipe(concat('app.js'))
     .pipe(gulp.dest(paths.siteJs)) // gulp local dev
     .pipe(gulp.dest('./assets/js')) // jekyll
     .pipe(reload({stream: true}));
 
-    // reload;
+    // copy page-specific js
+    gulp.src(src + '/js/*.js')
+    .pipe($.sourcemaps.init())
+    .pipe(gulpif(!PRODUCTION, $.sourcemaps.write()))
+    .pipe(gulp.dest(paths.siteJs)) // gulp local dev
+    .pipe(gulp.dest('./assets/js')) // jekyll
+    .pipe(reload({stream: true}));
 });
 
 gulp.task('images', function() {
@@ -129,17 +135,16 @@ gulp.task('serve', () => {
 });
 
 gulp.task('watch', () => {
-  // reload page
-  gulp.watch(paths.siteCss + '/*.css').on("change", reload);
+  // sass/css
   gulp.watch(sassFiles, ['sass']);
+  gulp.watch(paths.siteCss + '/*.css').on("change", reload);
 
   gulp.watch(jsFiles, ['javascript']);
 
-  // build jekyll after save
-  gulp.watch(['./index.html', '_drafts/**/*.{md,markdown,html}',
-      '_includes/**/*.{md,markdown,html}', '_layouts/**/*.{md,markdown,html}', 
-      '_posts/*.{md,markdown,html}'
-      ], ['jekyll']);
+  // html files
+  gulp.watch(htmlFiles, ['jekyll']); // build html using jekyll
+  gulp.watch(site + '/*.html').on("change", reload); // reload after html files built from jekyll task
+
 });
 
 gulp.task('default', ['sass', 'images', 'javascript', 'serve', 'watch']);
