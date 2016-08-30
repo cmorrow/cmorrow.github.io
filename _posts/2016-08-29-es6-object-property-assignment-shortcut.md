@@ -7,9 +7,18 @@ category: Web Development
 tags: [javascript]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem molestias deserunt fuga adipisci odio obcaecati, facere perspiciatis voluptate dolor! Quasi dolore, est assumenda qui tenetur? 
+A nice feature of [ECMAScript 6 (ES6)](http://es6-features.org/#PropertyShorthand) is the shorthand for assigning object properties.
 
-Reiciendis quis repellendus, praesentium a! Excepturi nisi modi autem fuga fugiat cumque aliquid est at harum, culpa repudiandae earum, possimus sapiente debitis eligendi sed! Rerum, aspernatur officiis.
+Look at the sample code below and see how existing variables can be used as properties for a new object without writing duplicate references as required by ES5.
 
+{% highlight javascript %}
+var a = "foo",
+    b = 42,
+    c = {};
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laboriosam cupiditate temporibus eum tempore, voluptatibus consectetur deserunt accusantium commodi accusamus ea vero, debitis culpa sint asperiores mollitia optio delectus modi.
+// shorthand property names (ES6)
+var o = {a, b, c };
+console.log(o.a); // "foo"
+{% endhighlight %}
+
+For more ES6 features visit this awesome site: [ES6-Features.org](http://es6-features.org/)

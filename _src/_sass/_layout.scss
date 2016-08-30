@@ -10,7 +10,7 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     width: 100%;
     z-index: 100;
-    background: #000a23 url('/assets/images/global/header-bg.png') no-repeat left top;
+    background: #000a23 url('/assets/images/global/header-bg.png') no-repeat center top;
 
     .search {
         margin-top: 9px;
@@ -24,11 +24,13 @@
 
 .site-title {
     float: left;
+    padding: $gutter/2 $gutter;
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 1.2em;
     letter-spacing: -1px;
     margin: $gutter 0;
+    background-color: rgba(0, 10, 35, 0.5);
     
 
     &,
@@ -63,13 +65,14 @@
         float:left;
         padding: 0 $gutter/2;
         color: $nav-color;
+        border-left: solid 1px rgba(255, 255, 255, 0.2);
         &:hover {
             background-color: lighten($nav-bg, 5%); //$primary;
         }
 
         // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        &:last-child {
+            border-right: solid 1px rgba(255, 255, 255, 0.2);
         }
     }
 
