@@ -17,8 +17,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmorrow.github.io/" # the base hostname & protocol for your site
 twitter_username: _ChrisMorrow
-categories: Web Development
-tags: [javascript, d3, Angular, React]
+
 
 git:
   branch: master

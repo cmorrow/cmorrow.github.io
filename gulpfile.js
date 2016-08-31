@@ -21,10 +21,11 @@ const site = '_site';
 const imageFiles = src + '/images/**/*'
 const sassFiles = [src + '/_sass/*.scss', src + '/foundation-sites/scss/**/*.scss']
 const jsFiles = src + '/js/**/*.js';
-const htmlFiles = ['./_config.yml', './*.html', './tag/**/*.html', './category/**/*.html',
-  './_drafts/**/*.{md,markdown,html}', './_includes/**/*.{md,markdown,html}', 
-  './_layouts/**/*.{md,markdown,html}', './_posts/*.{md,markdown,html}'
-      ];
+const htmlFiles = ['./_config.yml', './*.html', './_drafts/**/*.{md,markdown,html}', 
+    './tag/**/*.html', './category/**/*.html',
+    './_includes/**/*.{md,markdown,html}', './_layouts/**/*.{md,markdown,html}', 
+    './_posts/*.{md,markdown,html}'
+    ];
 
 // check for production flag
 const PRODUCTION = !!(process.argv.production);
@@ -117,8 +118,6 @@ gulp.task('jekyll', function(done) {
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
 
-  // browserSync.reload();
-
 });
 
 
@@ -143,7 +142,7 @@ gulp.task('watch', () => {
 
   // html files
   gulp.watch(htmlFiles, ['jekyll']); // build html using jekyll
-  gulp.watch(site + '/*.html').on("change", reload); // reload after html files built from jekyll task
+  gulp.watch(site + '/**/*.html').on("change", reload); // reload after html files built from jekyll task
 
 });
 

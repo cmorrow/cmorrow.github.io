@@ -4,7 +4,7 @@ layout: post
 date: 2016-08-29 15:10:06
 author: Chris Morrow
 category: Web Development
-tags: [javascript]
+tags: [javascript, es6]
 ---
 
 A nice feature of [ECMAScript 6 (ES6)](http://es6-features.org/#PropertyShorthand) is the shorthand for assigning object properties.

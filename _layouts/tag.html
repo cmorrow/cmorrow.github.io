@@ -4,11 +4,11 @@ layout: default
 <div class="sidebar-wrapper">
   <div class="row">
       <div class="column large-12">
-        <h1 class="page-heading">Tags: {{ page.tag }}</h1>
+        <h1 class="page-heading">Posts by Tag: <span class="tag-block">{{ page.tag }}</span></h1>
       </div>
       <div class="column medium-9">
         <div class="home">
-
+        {{page.tag}}
           <ul class="post-list">
             {% for post in site.tags[page.tag] %}
               <li>
