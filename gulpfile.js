@@ -118,8 +118,6 @@ gulp.task('jekyll', function(done) {
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
 
-  browserSync.reload();
-
 });
 
 

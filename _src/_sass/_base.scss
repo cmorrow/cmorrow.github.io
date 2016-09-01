@@ -235,3 +235,12 @@ pre {
 .fa {
     color: #828282;
 }
+
+a.button {
+    margin-bottom: 0;
+    background-color: $nav-bg;
+    text-decoration: none;
+    &:visited {
+        color: #fff;
+    }
+}

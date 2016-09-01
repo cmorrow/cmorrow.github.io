@@ -7,7 +7,7 @@ category: Web Development
 tags: [javascript, es6]
 ---
 
-A nice feature of [ECMAScript 6 (ES6)](http://es6-features.org/#PropertyShorthand) is the shorthand for assigning object properties.
+A nice feature of <a href="http://es6-features.org/#PropertyShorthand" target="_blank">ECMAScript 6 (ES6)</a> is the shorthand for assigning object properties.
 
 Look at the sample code below and see how existing variables can be used as properties for a new object without writing duplicate references as required by ES5.
 
@@ -21,4 +21,4 @@ var o = {a, b, c };
 console.log(o.a); // "foo"
 {% endhighlight %}
 
-For more ES6 features visit this awesome site: [ES6-Features.org](http://es6-features.org/)
+For more ES6 features visit this awesome site: <a href="http://es6-features.org/" target="_blank">ES6-Features.org</a>
