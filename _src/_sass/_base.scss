@@ -8,6 +8,16 @@
     display:none;
 }
 
+
+.left {
+    float: left;
+}
+
+img {
+    &.left {
+        margin-right: $gutter;
+    }
+}
 /**
  * Reset some basic elements
  */

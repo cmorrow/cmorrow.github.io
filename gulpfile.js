@@ -21,7 +21,7 @@ const site = '_site';
 const imageFiles = src + '/images/**/*'
 const sassFiles = [src + '/_sass/*.scss', src + '/foundation-sites/scss/**/*.scss']
 const jsFiles = src + '/js/**/*.js';
-const htmlFiles = ['./_config.yml', './*.html', './_drafts/**/*.{md,markdown,html}', 
+const htmlFiles = ['./_config.yml', './*.{md,markdown,html}', './_drafts/**/*.{md,markdown,html}', 
     './tag/**/*.html', './category/**/*.html',
     './_includes/**/*.{md,markdown,html}', './_layouts/**/*.{md,markdown,html}', 
     './_posts/*.{md,markdown,html}'

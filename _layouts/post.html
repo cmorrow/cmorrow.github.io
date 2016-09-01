@@ -10,13 +10,13 @@ layout: default
 				  <div class="cf">
 				  	<div class="post-title">
 				  		<h1 itemprop="name headline">{{ page.title }}</h1>
-				  		<div class="post-meta">
+				  		<div class="post-meta cf">
 				  			
-				  			<div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+				  			<div class="date left">{{ page.date | date: "%b %-d, %Y" }}</div>
 				  			{% if page.author %}
 				  			<div class="author left">
 				  				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-				  				<span itemprop="name">{{ page.author }}</span></span>
+				  				<span itemprop="name">/ {{ page.author }}</span></span>
 				  			</div>
 				  			{% endif %}
 				  			
