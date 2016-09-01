@@ -24,7 +24,7 @@ const jsFiles = src + '/js/**/*.js';
 const htmlFiles = ['./_config.yml', './*.{md,markdown,html}', './_drafts/**/*.{md,markdown,html}', 
     './tag/**/*.html', './category/**/*.html',
     './_includes/**/*.{md,markdown,html}', './_layouts/**/*.{md,markdown,html}', 
-    './_posts/*.{md,markdown,html}'
+    './_posts/**/*.{md,markdown,html}'
     ];
 
 // check for production flag
@@ -118,6 +118,8 @@ gulp.task('jekyll', function(done) {
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
 
+  browserSync.reload();
+
 });
 
 
@@ -146,4 +148,4 @@ gulp.task('watch', () => {
 
 });
 
-gulp.task('default', ['sass', 'images', 'javascript', 'serve', 'watch']);
+gulp.task('default', ['sass', 'images', 'javascript', 'serve', 'watch', 'jekyll']);
