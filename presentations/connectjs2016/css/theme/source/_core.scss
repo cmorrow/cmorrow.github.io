@@ -1,0 +1,52 @@
+$gutter: 25px;
+$orange: #ff6100;
+$highlight-color: yellow;//#ff5000;
+
+.no-margin {
+    margin:0 !important;
+}
+
+.display-none {
+	display:none;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+// clearfix
+.clearfix, .cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+.wobble {
+    position: relative;
+    display: inline-block;
+    -webkit-animation: wobble .75s linear infinite;
+    -moz-animation: wobble .75s linear infinite;
+    -ms-animation: wobble .75s linear infinite;
+    -o-animation: wobble .75s linear infinite;
+    animation: wobble .75s linear infinite;
+}
+
+@keyframes wobble {
+    0% { transform: rotate(-1deg); }
+    20% { transform: rotate(1deg); }
+    40% { transform: rotate(-1deg); }
+    55% { transform: rotate(0deg); }
+    70% { transform: rotate(-1deg); }
+    80% { transform: rotate(1deg); }
+    90% { transform: rotate(-1deg); }
+    90% { transform: rotate(1deg); }
+}
+
+
