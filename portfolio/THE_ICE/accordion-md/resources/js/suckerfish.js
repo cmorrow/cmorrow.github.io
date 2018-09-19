@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#nav-one li").hover(function(){$("ul",this).fadeIn("fast")},function(){}),document.all&&$("#nav-one li").hoverClass("sfHover")}),$.fn.hoverClass=function(n){return this.each(function(){$(this).hover(function(){$(this).addClass(n)},function(){$(this).removeClass(n)})})};

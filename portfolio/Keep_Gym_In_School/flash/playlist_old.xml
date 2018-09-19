@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<playlist>
+<video url="../flv/brees.flv" caption="Drew Brees" />
+<video url="../flv/Manning.flv" caption="Eli Manning" />
+<video url="../flv/peterson.flv" caption="Adrian Peterson" />
+<video url="../flv/sanders.flv" caption="Bob Sanders" />
+</playlist>

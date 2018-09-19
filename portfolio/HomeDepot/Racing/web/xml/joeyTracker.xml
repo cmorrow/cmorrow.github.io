@@ -1,0 +1,788 @@
+<joeyTracker>
+
+	<maps>
+		<map month="1" path="images/demoMap.jpg" />
+		<map month="2" path="images/02_february.jpg" />
+		<map month="3" path="images/03_march.jpg" />
+		<map month="4" path="images/04_april.jpg" />
+		<map month="5" path="images/05_may.jpg" />
+		<map month="6" path="images/06_june.jpg" />
+		<map month="7" path="images/07_july.jpg" />
+		<map month="8" path="images/08_august.jpg" />
+		<map month="9" path="images/09_september.jpg" />
+		<map month="10" path="images/10_october.jpg" />
+		<map month="11" path="images/11_november.jpg" />
+		<map month="12" path="images/demoMap.jpg" />
+	</maps>
+	
+	<date value="02/07/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Budweiser Shootout<br>Daytona International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>579</xCoord>
+			<yCoord>334</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/11/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 6335, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>560</xCoord>
+			<yCoord>318</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/14/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Camping World 300<br>Daytona International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>575</xCoord>
+			<yCoord>345</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/15/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Daytona 500<br>Daytona International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>590</xCoord>
+			<yCoord>350</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/21/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Stater Bros. 300<br>Auto Club Speedway]]></caption>
+			<style>center</style>
+			<xCoord>71</xCoord>
+			<yCoord>283</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/22/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Auto Club 500 <br>Auto Club Speedway]]></caption>
+			<style>center</style>
+			<xCoord>60</xCoord>
+			<yCoord>275</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/26/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 3303, Time: 5-7pm]]></caption>
+			<style>center</style>
+			<xCoord>105</xCoord>
+			<yCoord>250</yCoord>
+		</event>
+	</date>
+	
+	<date value="02/28/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Sam's Town 300<br>Las Vegas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>115</xCoord>
+			<yCoord>245</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/01/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Shelby 427<br>Las Vegas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>53</xCoord>
+			<yCoord>219</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/05/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 1750, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>550</xCoord>
+			<yCoord>248</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/08/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Kobalt Tools 500<br>Atlanta Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>565</xCoord>
+			<yCoord>255</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/21/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Scotts Turf Builder 300<br>Bristol Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>560</xCoord>
+			<yCoord>189</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/22/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Food City 500<br>Bristol Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>570</xCoord>
+			<yCoord>188</yCoord>
+		</event>
+	</date>
+	
+	<date value="03/29/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Goody's Fast Relief 500<br>Martinsville Speedway]]></caption>
+			<style>center</style>
+			<xCoord>601</xCoord>
+			<yCoord>167</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/02/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 524, Time: 5-7pm]]></caption>
+			<style>center</style>
+			<xCoord>360</xCoord>
+			<yCoord>255</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/04/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[O'Reilly 300<br>Texas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>340</xCoord>
+			<yCoord>266</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/05/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Samsung 500<br>Texas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>330</xCoord>
+			<yCoord>265</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/17/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Bashas' Supermarkets 200<br>Phoenix International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>62</xCoord>
+			<yCoord>250</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/18/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Subway Fresh Fit 500<br>Phoenix International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>55</xCoord>
+			<yCoord>249</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/23/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 818, Time: 5-7pm]]></caption>
+			<style>center</style>
+			<xCoord>455</xCoord>
+			<yCoord>218</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/25/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Aaron's 312<br>Talladega Superspeedway]]></caption>
+			<style>center</style>
+			<xCoord>475</xCoord>
+			<yCoord>224</yCoord>
+		</event>
+	</date>
+	
+	<date value="04/26/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Aaron's 499<br>Talladega Superspeedway]]></caption>
+			<style>center</style>
+			<xCoord>485</xCoord>
+			<yCoord>223</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/01/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Lipton Tea 250<br>Richmond International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>483</xCoord>
+			<yCoord>200</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/02/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Crown Royal presents the Your Name Here 400<br>Richmond International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>493</xCoord>
+			<yCoord>200</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/08/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Diamond Hill Plywood 200<br>Darlington Raceway]]></caption>
+			<style>center</style>
+			<xCoord>465</xCoord>
+			<yCoord>315</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/09/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Southern 500<br>Darlington Raceway]]></caption>
+			<style>center</style>
+			<xCoord>455</xCoord>
+			<yCoord>310</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/16/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Sprint All-Star Race<br>Lowe's Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>432</xCoord>
+			<yCoord>280</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/21/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 3638, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>400</xCoord>
+			<yCoord>280</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/23/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Coca-Cola 600<br>Lowe's Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>408</xCoord>
+			<yCoord>265</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/24/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Carquest Auto Parts 300<br>Lowe's Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>420</xCoord>
+			<yCoord>260</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/30/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Heluva Good! 200<br>Dover International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>510</xCoord>
+			<yCoord>140</yCoord>
+		</event>
+	</date>
+	
+	<date value="05/31/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Dover 400<br>Dover International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>520</xCoord>
+			<yCoord>139</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/07/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Pocono 500<br>Pocono Raceway]]></caption>
+			<style>center</style>
+			<xCoord>568</xCoord>
+			<yCoord>197</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/14/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[LifeLock 400 <br>Michigan International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>470</xCoord>
+			<yCoord>183</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/21/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Toyota/SaveMart 350<br>Infineon Raceway]]></caption>
+			<style>center</style>
+			<xCoord>28</xCoord>
+			<yCoord>258</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/25/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 3402, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>590</xCoord>
+			<yCoord>120</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/27/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Camping World RV Sales 200 presented by RVs.com<br>New Hampshire Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>607</xCoord>
+			<yCoord>135</yCoord>
+		</event>
+	</date>
+	
+	<date value="06/28/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Lenox Industrial Tools 301<br>New Hampshire Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>603</xCoord>
+			<yCoord>124</yCoord>
+		</event>
+	</date>
+	
+	<date value="07/03/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Winn Dixie 250<br>Daytona International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>525</xCoord>
+			<yCoord>395</yCoord>
+		</event>
+	</date>
+	
+	<date value="07/04/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Coke Zero 400<br>Daytona International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>513</xCoord>
+			<yCoord>394</yCoord>
+		</event>
+	</date>
+	
+	<date value="07/10/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Dollar General 300 powered by Coca-Cola<br>Chicagoland Speedway]]></caption>
+			<style>center</style>
+			<xCoord>332</xCoord>
+			<yCoord>130</yCoord>
+		</event>
+	</date>
+	
+	<date value="07/11/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[LifeLock.com 400<br>Chicagoland Speedway]]></caption>
+			<style>center</style>
+			<xCoord>320</xCoord>
+			<yCoord>129</yCoord>
+		</event>
+	</date>
+	
+	<date value="07/26/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Allstate 400 at the Brickyard<br>Indianapolis Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>380</xCoord>
+			<yCoord>182</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/02/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Pennsylvania 500<br>Pocono Raceway]]></caption>
+			<style>center</style>
+			<xCoord>497</xCoord>
+			<yCoord>181</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/06/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 6159, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>463</xCoord>
+			<yCoord>144</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/08/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Zippo 200<br>Watkins Glen International]]></caption>
+			<style>center</style>
+			<xCoord>472</xCoord>
+			<yCoord>138</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/09/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Centurion Boats at The Glen<br>Watkins Glen International]]></caption>
+			<style>center</style>
+			<xCoord>482</xCoord>
+			<yCoord>137</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/15/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[TBA<br>Michigan International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>225</xCoord>
+			<yCoord>181</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/16/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[TBA<br>Michigan International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>213</xCoord>
+			<yCoord>180</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/20/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 4658, Time: 5-7pm]]></caption>
+			<style>right</style>
+			<xCoord>400</xCoord>
+			<yCoord>319</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/21/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Food City 250<br>Bristol Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>391</xCoord>
+			<yCoord>342</yCoord>
+		</event>
+	</date>
+	
+	<date value="08/22/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Sharpie 500<br>Bristol Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>378</xCoord>
+			<yCoord>341</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/05/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Degree V12 300<br>Atlanta Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>350</xCoord>
+			<yCoord>397</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/06/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Pep Boys Auto 500<br>Atlanta Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>362</xCoord>
+			<yCoord>396</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/10/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 4616, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>443</xCoord>
+			<yCoord>305</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/11/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[TBA<br>Richmond International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>455</xCoord>
+			<yCoord>297</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/12/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Chevy Rock & Roll 400<br>Richmond International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>467</xCoord>
+			<yCoord>296</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/20/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Sylvania 300<br>New Hampshire Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>505</xCoord>
+			<yCoord>129</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/24/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 1608, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>470</xCoord>
+			<yCoord>251</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/26/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Dover 200<br>Dover International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>475</xCoord>
+			<yCoord>250</yCoord>
+		</event>
+	</date>
+	
+	<date value="09/27/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Dover 400<br>Dover International Speedway]]></caption>
+			<style>center</style>
+			<xCoord>487</xCoord>
+			<yCoord>249</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/03/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Kansas Lottery 300<br>Kansas Speedway]]></caption>
+			<style>center</style>
+			<xCoord>395</xCoord>
+			<yCoord>202</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/04/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Kansas 400<br>Kansas Speedway]]></caption>
+			<style>center</style>
+			<xCoord>383</xCoord>
+			<yCoord>201</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/10/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Camping World 300<br>Auto Club Speedway]]></caption>
+			<style>center</style>
+			<xCoord>80</xCoord>
+			<yCoord>304</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/11/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Pepsi 500<br>Auto Club Speedway]]></caption>
+			<style>center</style>
+			<xCoord>68</xCoord>
+			<yCoord>303</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/16/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Dollar General 300<br>Lowe's Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>580</xCoord>
+			<yCoord>232</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/17/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Bank of America 500<br>Lowe's Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>592</xCoord>
+			<yCoord>231</yCoord>
+		</event>
+	</date>
+	
+	<date value="10/25/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[TBA<br>Martinsville Speedway]]></caption>
+			<style>center</style>
+			<xCoord>600</xCoord>
+			<yCoord>202</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/01/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Amp Energy 500<br>Talladega Superspeedway]]></caption>
+			<style>center</style>
+			<xCoord>469</xCoord>
+			<yCoord>233</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/07/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[O'Reilly Challenge<br>Texas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>307</xCoord>
+			<yCoord>267</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/08/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Dickies 500<br>Texas Motor Speedway]]></caption>
+			<style>center</style>
+			<xCoord>295</xCoord>
+			<yCoord>266</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/12/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 441, Time: 5-7pm]]></caption>
+			<style>right</style>
+			<xCoord>70</xCoord>
+			<yCoord>258</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/14/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[TBA<br>Phoenix International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>60</xCoord>
+			<yCoord>250</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/15/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Checker O'Reilly Auto Parts 500 presented by Pennzoil<br>Phoenix International Raceway]]></caption>
+			<style>center</style>
+			<xCoord>48</xCoord>
+			<yCoord>249</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/21/2009">		
+		<event>
+			<type>Nationwide</type>
+			<caption><![CDATA[Ford 300<br>Homestead-Miami Speedway]]></caption>
+			<style>center</style>
+			<xCoord>585</xCoord>
+			<yCoord>346</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/22/2009">		
+		<event>
+			<type>SprintCup</type>
+			<caption><![CDATA[Ford 400<br>Homestead-Miami Speedway]]></caption>
+			<style>center</style>
+			<xCoord>580</xCoord>
+			<yCoord>344</yCoord>
+		</event>
+	</date>
+	
+	<date value="11/29/2009">		
+		<event>
+			<type>JoeyAppearance</type>
+			<caption><![CDATA[The Home Depot<br>Store Number: 6873, Time: 5-7pm]]></caption>
+			<style>left</style>
+			<xCoord>575</xCoord>
+			<yCoord>345</yCoord>
+		</event>
+	</date>
+	
+</joeyTracker>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="school-media-browser-xml.ascx.cs" Inherits="TABS_UserControls.usercontrols.school_media_browser_xml" %>
+<asp:Literal ID="xml" runat="server"></asp:Literal>

@@ -1,0 +1,44 @@
+<div id=popJoinNetwork style="display:none"> <div id=popContent> <h1 class=popHeader>Subscribe</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}HideContent('popJoinNetwork');">Close Form</a></span> <br class=clearRight /> <form id=JoinNetworkForm method=get action="#"> <div id=friendBox> <div id=invalidfromemailJN class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=subscribefromemail name=subscribefromemail /> <br class=clearLeft /> <input type=button name=BtnSubmitJN value=Submit onclick="submitJoinNetworkForm();" id=BtnSubmitJN style="cursor: hand;"/> <br class=clearLeft /><br/> <p class=smallTxt>By entering your e-mail address and clicking submit, you consent to receive a subscription by e-mail from Georgia-Pacific. Links to our privacy notice, including opt-out and Safe Harbor provisions, can be found at the bottom of each page.</p> </div> <br/> <input type=hidden id=subscribefrom name=subscribefrom value=JN /> </form> <script>	
+	document.getElementById("invalidfromemailJN").innerHTML = "";
+	
+	
+	function submitJoinNetworkForm()
+	{
+	    document.getElementById("invalidfromemailJN").innerHTML = "";
+		
+		var isvalid = true;	
+				
+	    if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    document.getElementById("invalidfromemailJN").innerHTML = "Please Enter Your E-mail";
+		    isvalid = false;	
+	    }
+		if(isvalid) 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;	
+    }
+    
+    function submitSubscribeForm()
+    {
+        document.getElementById("subscribefrom").value = "SUBSCRIBE";
+        document.getElementById("subscribefromemail").value = document.getElementById("email").value;
+        
+        if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    alert("Please Enter Your E-mail");
+		    isvalid = false;	
+	    }
+		else 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;
+    }
+    
+</script> </div> </div>

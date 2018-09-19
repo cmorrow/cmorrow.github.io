@@ -1,0 +1,1 @@
+$(document).ready(function(){$("select#gallerySelect").change(function(){var e="";e=$("select option:selected").val(),$(".mid div[id*='gallery']").hide(),$("#"+e).show()}).change()});

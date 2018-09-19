@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".pics").cycle({fx:"fade",timeout:8e3,speed:2500,random:1})});

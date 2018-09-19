@@ -1,0 +1,69 @@
+<div id=popColleague style="display:none"> <div id=popContent> <h1 class=popHeader>Send to a Colleague</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}resetColleagueForm();HideContent('popColleague');">Close Form</a></span> <br class=clearBoth /> <form id=ColleagueForm method=get action="#"> <div id=friendBox> <div id=invalidemailto class=errorlabel></div> <label for=emailto>Colleague's E-mail Address:</label><input id=emailto name=emailto /> <div id=invalidfirstname class=errorlabel></div> <label for=firstname>First Name:</label><input id=firstname name=firstname /> <div id=invalidsurname class=errorlabel></div> <label for=surname>Last Name:</label><input id=surname name=surname /> <div id=invalidfromemail class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=fromemail name=fromemail /> <br/> <input type=button name=BtnSubmit value=Submit onclick="submitColleagueForm();" id=BtnSubmit style="cursor: hand;"/> </div> <div id=friendConfirmation style="display: none;clear: left; width:410px;padding: 10px;background:#fcfcfc;"> <h2 class=txtBlue>Your message has been sent. Thank you for referring a colleague to Build Paperless!</h2> </div> <br/> <input type=hidden id=frmaction name=frmaction value=add /> <input type=hidden id=url name=url value="#"/> </form> <% If Request.querystring("MessageSent") <> "" Then %> <script>
+ReverseDisplay('popColleague');
+document.getElementById("friendBox").style.display = "none";
+document.getElementById("friendConfirmation").style.display = "block";
+try{hideDrops();}catch(e){}
+</script> <% End If %> <script>	
+	document.getElementById("invalidfirstname").innerHTML = "";
+	document.getElementById("invalidsurname").innerHTML = "";
+	document.getElementById("invalidfromemail").innerHTML = "";
+	document.getElementById("invalidemailto").innerHTML = "";
+	
+	
+	function submitColleagueForm()
+	{
+		document.getElementById("invalidfirstname").innerHTML = "";
+		document.getElementById("invalidsurname").innerHTML = "";
+		document.getElementById("invalidfromemail").innerHTML = "";
+		document.getElementById("invalidemailto").innerHTML = "";
+		
+		var isvalid = true;	
+		
+		if(!isValidEmail(document.getElementById("emailto").value) )
+	    {
+		    document.getElementById("invalidemailto").innerHTML = "Please Enter Your Colleague's E-mail";
+		    document.getElementById("invalidemailto").style.display = "block"
+		    isvalid = false;	
+	    }
+		if(document.getElementById("firstname").value == "")
+	    {
+			    document.getElementById("invalidfirstname").innerHTML = "Please Enter Your First Name";
+			    document.getElementById("invalidfirstname").style.display = "block"
+			    isvalid = false;
+	    }	
+	    if(document.getElementById("surname").value == "")
+	    {
+			    document.getElementById("invalidsurname").innerHTML = "Please Enter Your Last Name";
+			    document.getElementById("invalidsurname").style.display = "block"
+			    isvalid = false;
+	    }
+	    if(!isValidEmail(document.getElementById("fromemail").value) )
+	    {
+		    document.getElementById("invalidfromemail").innerHTML = "Please Enter Your E-mail";
+		    document.getElementById("invalidfromemail").style.display = "block"
+		    isvalid = false;	
+	    }
+	    if(isvalid) 
+	    {
+	        document.getElementById("ColleagueForm").method = "post";
+	        document.getElementById("ColleagueForm").action = "colleagueSubmission.aspx?URL=" + window.location.pathname;
+	        document.getElementById("ColleagueForm").submit();
+	    }
+	    return false;	
+    }
+
+    function resetColleagueForm()
+    {
+        document.getElementById("friendBox").style.display = "block";
+        document.getElementById("friendConfirmation").style.display = "none";
+        
+        document.getElementById("invalidfirstname").innerHTML = "";
+        document.getElementById("invalidfirstname").style.display = "none"
+	    document.getElementById("invalidsurname").innerHTML = "";
+	    document.getElementById("invalidsurname").style.display = "none"
+	    document.getElementById("invalidfromemail").innerHTML = "";
+	    document.getElementById("invalidfromemail").style.display = "none"
+	    document.getElementById("invalidemailto").innerHTML = "";
+	    document.getElementById("invalidemailto").style.display = "none"
+    }
+</script> </div> </div>

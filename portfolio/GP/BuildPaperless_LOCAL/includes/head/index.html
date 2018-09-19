@@ -1,0 +1,134 @@
+<meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <link href="css/styles.css" rel=stylesheet /> <script src="js/swfobject.js"></script> <script><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script> <script>
+var win = null;
+
+function NewWindow(mypage,myname,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no';
+win = window.open(mypage,myname,settings)
+}
+</script> <script>
+
+	// some variables to save
+	var currentPosition;
+	var currentVolume;
+	var currentItem;
+
+	// these functions are caught by the JavascriptView object of the player.
+	function sendEvent(typ,prm) { thisMovie("mpl").sendEvent(typ,prm); };
+	function sendEvent2(typ,prm) { thisMovie("mpl2").sendEvent(typ,prm); };
+	function sendEvent3(typ,prm) { thisMovie("mpl3").sendEvent(typ,prm); };
+//	function getUpdate(typ,pr1,pr2,pid) {
+//		if(typ == "time") { currentposition = pr1; }
+//		else if(typ == "volume") { currentvolume = pr1; }
+//		else if(typ == "item") { currentitem = pr1; settimeout("getitemdata(currentitem)",100); }
+//		var id = document.getelementbyid(typ);
+//		id.innerhtml = typ+ ": "+math.round(pr1);
+//		pr2 == undefined ? null: id.innerhtml += ", "+math.round(pr2);
+//		if(pid != "null") {
+//			document.getelementbyid("video2").innerhtml = "(received from the player with id <i>"+pid+"</i>)";
+//		}
+//	};
+
+	// These functions are caught by the feeder object of the player.
+	function loadFile(obj) { thisMovie("mpl").loadFile(obj); };
+	function addItem(obj,idx) { thisMovie("mpl").addItem(obj,idx); }
+	function removeItem(idx) { thisMovie("mpl").removeItem(idx); }
+	function getItemData(idx) {
+		var obj = thisMovie("mpl").itemData(idx);
+		var nodes = "";
+		for(var i in obj) { 
+			nodes += "<li>"+i+": "+obj[i]+"</li>"; 
+		}
+		document.getElementById("data").innerHTML = nodes;
+	};
+
+	// This is a javascript handler for the player and is always needed.
+	function thisMovie(movieName) {
+	    if(navigator.appName.indexOf("Microsoft") != -1) {
+			return window[movieName];
+		} else {
+			return document[movieName];
+		}
+	};
+	
+	function replay(movie) {
+	    if (movie == "mpl") {
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent('stop');
+	    sendEvent('playpause');
+	    } else if (movie == "mpl2"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent2('stop');
+	    sendEvent2('playpause');
+	    } else if (movie == "mpl3"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    // Stop then start video
+	    sendEvent3('stop');
+	    sendEvent3('playpause');
+	    }
+	};
+	
+	// for Flash
+	function pauseVideo(video) {
+	    if (video == "mpl") {
+	    sendEvent('playpause');
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl2"){
+	    sendEvent2('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl3"){
+	    sendEvent3('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    }
+	};
+
+</script> <script>
+<!--
+function HideContent(popLayer) {
+document.getElementById(popLayer).style.display = "none";
+}
+function ShowContent(popLayer) {
+document.getElementById(popLayer).style.display = "block";
+}
+function ReverseDisplay(popLayer) {
+if(document.getElementById(popLayer).style.display == "none") { 
+document.getElementById(popLayer).style.display = "block"; }
+else { document.getElementById(popLayer).style.display = "none";
+}
+}
+//--></script> <script>
+<!--
+function isValidEmail(str) {
+   return (str.indexOf(".") > 2) && (str.indexOf("@") > 0);
+}
+//--></script>

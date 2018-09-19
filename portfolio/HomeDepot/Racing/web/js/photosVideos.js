@@ -1,0 +1,1 @@
+var target="";$(function(){var h=$("#photosLeft").height(),t=$("#photosRight").height(),o=$("#heightDiv").height();$("#photosLeft").height(t),h>t?$("#photosRight").height(h):$("#photosLeft .roundedBox .mid").height(o-75)});

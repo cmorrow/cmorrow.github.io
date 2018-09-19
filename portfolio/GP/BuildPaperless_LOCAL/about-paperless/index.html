@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <title>BuildPaperless - About GP Paperless</title> <meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <link href="css/styles.css" rel=stylesheet /> <script src="js/swfobject.js"></script> <script><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script> <script>
+var win = null;
+
+function NewWindow(mypage,myname,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no';
+win = window.open(mypage,myname,settings)
+}
+</script> <script>
+
+	// some variables to save
+	var currentPosition;
+	var currentVolume;
+	var currentItem;
+
+	// these functions are caught by the JavascriptView object of the player.
+	function sendEvent(typ,prm) { thisMovie("mpl").sendEvent(typ,prm); };
+	function sendEvent2(typ,prm) { thisMovie("mpl2").sendEvent(typ,prm); };
+	function sendEvent3(typ,prm) { thisMovie("mpl3").sendEvent(typ,prm); };
+//	function getUpdate(typ,pr1,pr2,pid) {
+//		if(typ == "time") { currentposition = pr1; }
+//		else if(typ == "volume") { currentvolume = pr1; }
+//		else if(typ == "item") { currentitem = pr1; settimeout("getitemdata(currentitem)",100); }
+//		var id = document.getelementbyid(typ);
+//		id.innerhtml = typ+ ": "+math.round(pr1);
+//		pr2 == undefined ? null: id.innerhtml += ", "+math.round(pr2);
+//		if(pid != "null") {
+//			document.getelementbyid("video2").innerhtml = "(received from the player with id <i>"+pid+"</i>)";
+//		}
+//	};
+
+	// These functions are caught by the feeder object of the player.
+	function loadFile(obj) { thisMovie("mpl").loadFile(obj); };
+	function addItem(obj,idx) { thisMovie("mpl").addItem(obj,idx); }
+	function removeItem(idx) { thisMovie("mpl").removeItem(idx); }
+	function getItemData(idx) {
+		var obj = thisMovie("mpl").itemData(idx);
+		var nodes = "";
+		for(var i in obj) { 
+			nodes += "<li>"+i+": "+obj[i]+"</li>"; 
+		}
+		document.getElementById("data").innerHTML = nodes;
+	};
+
+	// This is a javascript handler for the player and is always needed.
+	function thisMovie(movieName) {
+	    if(navigator.appName.indexOf("Microsoft") != -1) {
+			return window[movieName];
+		} else {
+			return document[movieName];
+		}
+	};
+	
+	function replay(movie) {
+	    if (movie == "mpl") {
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent('stop');
+	    sendEvent('playpause');
+	    } else if (movie == "mpl2"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent2('stop');
+	    sendEvent2('playpause');
+	    } else if (movie == "mpl3"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    // Stop then start video
+	    sendEvent3('stop');
+	    sendEvent3('playpause');
+	    }
+	};
+	
+	// for Flash
+	function pauseVideo(video) {
+	    if (video == "mpl") {
+	    sendEvent('playpause');
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl2"){
+	    sendEvent2('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl3"){
+	    sendEvent3('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    }
+	};
+
+</script> <script>
+<!--
+function HideContent(popLayer) {
+document.getElementById(popLayer).style.display = "none";
+}
+function ShowContent(popLayer) {
+document.getElementById(popLayer).style.display = "block";
+}
+function ReverseDisplay(popLayer) {
+if(document.getElementById(popLayer).style.display == "none") { 
+document.getElementById(popLayer).style.display = "block"; }
+else { document.getElementById(popLayer).style.display = "none";
+}
+}
+//--></script> <script>
+<!--
+function isValidEmail(str) {
+   return (str.indexOf(".") > 2) && (str.indexOf("@") > 0);
+}
+//--></script> <style>
+#nav li.nav1 a {color: #005288;background: #ffcf06;}
+#nav .nav1 li a {color: #fff;background: #005288;}
+#nav .nav1 a:hover, #nav .nav1 a.over, #nav .nav1 a.sfhover {color: #005288;background: #ffcf06;}
+</style> </head> <body> <div id=wrapper> <div id=header><a class=floatLeft href="index.html"><img src="images/paperlessLogo.gif" alt="Build Paperless"/></a><a class=floatRight href="/build/productgroup.aspx?pid=1064&amp;bpl" target=_blank><img src="images/logoGypsum.gif" alt="Georgia-Pacific Gypsum"/></a><div class=clearBoth2></div></div> <ul id=nav> <li class=nav1><a class=leftBorder href="about-paperless.html">About GP Paperless</a> <ul class=nav1Drop><li><a href="moisture-and-mold.html">Moisture &amp; Mold</a></li><li><a href="system.html">Paperless Fiberglass Mats In A System</a></li><li><a href="technical-information.html">Technical Information</a></li><li><a href="faqs.html">FAQs</a></li></ul> </li> <li class=nav2><a href="design-moisture-forgiveness.html">Design Moisture Forgiveness</a> <ul class=nav2Drop><li><a href="sustainability.html">Sustainability</a></li><li><a href="indoor-air-quality.html">Indoor Air Quality</a></li></ul></li> <li class=nav3><a href="save-time-reduce-risks.html">Save Time Reduce Risks</a></li> <li class=nav4><a href="paperless-on-the-job.html">Paperless On The Job</a></li> <li class=nav5><a href="education.html">Education</a></li> <li class=nav6><a href="subscribe.aspx">Subscribe</a></li></ul> <div id=contentWrapper> <div id=content> <h1>About GP Paperless</h1> <p>Architecture has always been both at harmony with - and in conflict with - the natural world. How buildings deal with naturally occurring <a href="moisture-and-mold.html">moisture</a> is one prime example. Building with products that do not have traditional paper facings is just one more way of promoting the harmony, while reducing the conflict.</p> <p>Rethinking interior walls, hallways, ceilings and roofs has large implications, not only for the construction cycle, but for the life cycle of buildings, as well.</p> <p>It's a radically simple idea. Traditional gypsum products are based on a sandwich design: a gypsum core - usually with some organic content - faced on both sides with industrial paper (also organic) to help maintain structural integrity.</p> <div id=contentLeft> <p>Our engineers have perfected a process that replaces paper facings with fiberglass mats and treats the core to better resist moisture.<sup>1</sup></p> <p>The results are buildings with inherent <a href="design-moisture-forgiveness.html">moisture forgiveness</a>, and a strategy for minimizing the effects of weather on the construction cycle, squeezing delays and hidden cost out of the building process.</p> <p>Building paperless was born.</p> <p class=peerLink><a href="system.html">&gt;&gt; Not a product, but a system of solutions.</a></p> <p class=footnote><br/><br/><sup>1</sup><em>Build Paperless</em> stories, claims and comparisons are based on Georgia-Pacific products with paperless fiberglass mats instead of traditional paper faced products. For additional details, see the <a href="faqs.html">FAQ section</a>. </p> </div> <p id=flash3d><a href="//www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to view this video.</p> <script>
+	var s1 = new SWFObject("flash/3drender.swf","single","382","270","6");
+	s1.addParam("wmode","opaque");
+	s1.write("flash3d");
+</script><br class=clearBoth /> </div> <div id=sidebar> <h3><a href="paperless-on-the-job.html">What are your peers saying?</a></h3> <img src="images/peers/cKay.jpg" alt="Chris Kay" title="Chris Kay"/> <p class=quote> "From my perspective as an owner's representative, the product works great, it's cost effective and it serves the purpose in situations where you have to fast track the project. Quite frankly, we're going to spec it as the norm, we just don't see a need for the old paper drywall anymore."<br/> </p> <p class=peerName>Chris Kay</p> <p class=peerCompany>Turner Construction</p> <p class=peerLink><a href="paperless-on-the-job.html">&gt;&gt; Hear More from Peers</a></p> <p><a href="subscribe.aspx"><img src="images/subscribeIconSmall.jpg" alt=Subscribe title=Subscribe /></a></p> </div><div class=clearBoth></div> </div> <div id=footerTop></div> <div id=footer><h2><a href="javascript:try{hideDrops();}catch(e){}HideContent('popJoinNetwork');ReverseDisplay('popColleague');">Send to a colleague >></a>&nbsp;&nbsp;&nbsp;<a href="javascript:try{hideDrops();}catch(e){}HideContent('popColleague');ReverseDisplay('popJoinNetwork');">Subscribe >></a>&nbsp;&nbsp;&nbsp;<a href="request-information.aspx">Request Information >></a></h2> <div id=footerLeft> <p><a href="/build/productgroup.aspx?pid=1064&bpl" target=_blank>www.gpgypsum.com</a> <a href="/build/Dealerlocator.aspx?pid=4659&bpl" target=_blank>Where To Buy</a> 1-800-BUILD-GP</p> <div class=clearBoth2></div></div> <div id=footerRight><a href="/build/productgroup.aspx?pid=1064&bpl" target=_blank><img src="images/footerLogo.gif" alt="Georgia-Pacific Gypsum"/></a><p class=floatRight><a href="//www.gp.com/legal/" target=_blank>Terms of Use</a> <a href="//www.gp.com/privacy/" target=_blank>Online Privacy Notice</a><a href="//www.gp.com/privacy/california.asp" target=_blank>Your California Privacy Rights</a><a href="/build/pageviewer.aspx?repository=bp&amp;elementid=7899" target=_blank>Terms of Sale</a></p> </div> <br class=clearBoth /> </div> <div id=popColleague style="display:none;"> <div id=popContent> <h1 class=popHeader>Send to a Colleague</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}resetColleagueForm();HideContent('popColleague');">Close Form</a></span> <br class=clearBoth /> <form id=ColleagueForm method=get action="#"> <div id=friendBox> <div id=invalidemailto class=errorlabel></div> <label for=emailto>Colleague's E-mail Address:</label><input id=emailto name=emailto /> <div id=invalidfirstname class=errorlabel></div> <label for=firstname>First Name:</label><input id=firstname name=firstname /> <div id=invalidsurname class=errorlabel></div> <label for=surname>Last Name:</label><input id=surname name=surname /> <div id=invalidfromemail class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=fromemail name=fromemail /> <br/> <input type=button name=BtnSubmit value=Submit onclick="submitColleagueForm();" id=BtnSubmit style="cursor: hand;"/> </div> <div id=friendConfirmation style="display: none;clear: left; width:410px;padding: 10px;background:#fcfcfc;"> <h2 class=txtBlue>Your message has been sent. Thank you for referring a colleague to Build Paperless!</h2> </div> <br/> <input type=hidden id=frmaction name=frmaction value=add /> <input type=hidden id=url name=url value="#"/> </form> <script>	
+	document.getElementById("invalidfirstname").innerHTML = "";
+	document.getElementById("invalidsurname").innerHTML = "";
+	document.getElementById("invalidfromemail").innerHTML = "";
+	document.getElementById("invalidemailto").innerHTML = "";
+	
+	
+	function submitColleagueForm()
+	{
+		document.getElementById("invalidfirstname").innerHTML = "";
+		document.getElementById("invalidsurname").innerHTML = "";
+		document.getElementById("invalidfromemail").innerHTML = "";
+		document.getElementById("invalidemailto").innerHTML = "";
+		
+		var isvalid = true;	
+		
+		if(!isValidEmail(document.getElementById("emailto").value) )
+	    {
+		    document.getElementById("invalidemailto").innerHTML = "Please Enter Your Colleague's E-mail";
+		    document.getElementById("invalidemailto").style.display = "block"
+		    isvalid = false;	
+	    }
+		if(document.getElementById("firstname").value == "")
+	    {
+			    document.getElementById("invalidfirstname").innerHTML = "Please Enter Your First Name";
+			    document.getElementById("invalidfirstname").style.display = "block"
+			    isvalid = false;
+	    }	
+	    if(document.getElementById("surname").value == "")
+	    {
+			    document.getElementById("invalidsurname").innerHTML = "Please Enter Your Last Name";
+			    document.getElementById("invalidsurname").style.display = "block"
+			    isvalid = false;
+	    }
+	    if(!isValidEmail(document.getElementById("fromemail").value) )
+	    {
+		    document.getElementById("invalidfromemail").innerHTML = "Please Enter Your E-mail";
+		    document.getElementById("invalidfromemail").style.display = "block"
+		    isvalid = false;	
+	    }
+	    if(isvalid) 
+	    {
+	        document.getElementById("ColleagueForm").method = "post";
+	        document.getElementById("ColleagueForm").action = "colleagueSubmission.aspx?URL=" + window.location.pathname;
+	        document.getElementById("ColleagueForm").submit();
+	    }
+	    return false;	
+    }
+
+    function resetColleagueForm()
+    {
+        document.getElementById("friendBox").style.display = "block";
+        document.getElementById("friendConfirmation").style.display = "none";
+        
+        document.getElementById("invalidfirstname").innerHTML = "";
+        document.getElementById("invalidfirstname").style.display = "none"
+	    document.getElementById("invalidsurname").innerHTML = "";
+	    document.getElementById("invalidsurname").style.display = "none"
+	    document.getElementById("invalidfromemail").innerHTML = "";
+	    document.getElementById("invalidfromemail").style.display = "none"
+	    document.getElementById("invalidemailto").innerHTML = "";
+	    document.getElementById("invalidemailto").style.display = "none"
+    }
+</script> </div> </div> <div id=popJoinNetwork style="display:none"> <div id=popContent> <h1 class=popHeader>Subscribe</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}HideContent('popJoinNetwork');">Close Form</a></span> <br class=clearRight /> <form id=JoinNetworkForm method=get action="#"> <div id=friendBox> <div id=invalidfromemailJN class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=subscribefromemail name=subscribefromemail /> <br class=clearLeft /> <input type=button name=BtnSubmitJN value=Submit onclick="submitJoinNetworkForm();" id=BtnSubmitJN style="cursor: hand;"/> <br class=clearLeft /><br/> <p class=smallTxt>By entering your e-mail address and clicking submit, you consent to receive a subscription by e-mail from Georgia-Pacific. Links to our privacy notice, including opt-out and Safe Harbor provisions, can be found at the bottom of each page.</p> </div> <br/> <input type=hidden id=subscribefrom name=subscribefrom value=JN /> </form> <script>	
+	document.getElementById("invalidfromemailJN").innerHTML = "";
+	
+	
+	function submitJoinNetworkForm()
+	{
+	    document.getElementById("invalidfromemailJN").innerHTML = "";
+		
+		var isvalid = true;	
+				
+	    if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    document.getElementById("invalidfromemailJN").innerHTML = "Please Enter Your E-mail";
+		    isvalid = false;	
+	    }
+		if(isvalid) 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;	
+    }
+    
+    function submitSubscribeForm()
+    {
+        document.getElementById("subscribefrom").value = "SUBSCRIBE";
+        document.getElementById("subscribefromemail").value = document.getElementById("email").value;
+        
+        if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    alert("Please Enter Your E-mail");
+		    isvalid = false;	
+	    }
+		else 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;
+    }
+    
+</script> </div> </div> </div> </body> </html>

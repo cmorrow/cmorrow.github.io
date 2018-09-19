@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<worldmap titleText="CARE Around the World" testing="false">
+	<region>
+		<name show="true" xPos="418" yPos="130" pos="tr">Asia</name>
+		<image><![CDATA[images/map-Asia.gif]]></image>
+		<!-- pos options | tl,tr,bl,br | -->
+		<countries>
+			<country show="true">
+				<name xPos="91" yPos="111" pos="tl">Afghanistan</name>
+				<link><![CDATA[/careswork/countryprofiles/1.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="292" yPos="193" pos="blclose">Bangladesh</name>
+				<link><![CDATA[/careswork/countryprofiles/5.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="416" yPos="301" pos="bl">Cambodia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="398" yPos="230" pos="tr">Laos</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="348" yPos="0" pos="brfar">Mongolia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="340" yPos="190" pos="tr">Myanmar</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="239" yPos="156" pos="tr">Nepal</name>
+				<link><![CDATA[/careswork/countryprofiles/82.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="106" yPos="171" pos="bl">Pakistan</name>
+				<link><![CDATA[/careswork/countryprofiles/121.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="576" yPos="395" pos="tlfar">Papua New Guinea</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="554" yPos="281" pos="tlfar">Philippines</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="198" yPos="198" pos="tl">India</name>
+				<link><![CDATA[/careswork/countryprofiles/63.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="535" yPos="427" pos="tlfar">Indonesia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="348" yPos="0" pos="blfar">Russia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="230" yPos="337" pos="tl">Sri Lanka</name>
+				<link><![CDATA[/careswork/countryprofiles/97.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="146" yPos="76" pos="trclose">Tajikistan</name>
+				<link><![CDATA[/careswork/countryprofiles/99.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="382" yPos="264" pos="bl">Thailand</name>
+				<link><![CDATA[/careswork/countryprofiles/101.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="490" yPos="450" pos="tlfar">Timor Leste</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="448" yPos="282" pos="trclose">Vietnam</name>
+				<link><![CDATA[/careswork/countryprofiles/121.asp]]></link>
+			</country>
+			
+			
+		</countries>
+	</region>
+	<region>
+		<name show="true" xPos="275" yPos="214" pos="tl">West Africa</name>
+		<image><![CDATA[images/map-AfricaWest.gif]]></image>
+		<countries>
+			<country show="true">
+				<name xPos="260" yPos="266" pos="trclose">Benin</name>
+				<link><![CDATA[http://www.benin.com]]></link>
+			</country>
+			<country show="true">
+				<name xPos="356" yPos="318" pos="tr">Cameroon</name>
+				<link><![CDATA[/careswork/countryprofiles/48.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="415" yPos="203" pos="tr">Chad</name>
+				<link><![CDATA[/careswork/countryprofiles/102.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="227" yPos="277" pos="tl">Ghana</name>
+				<link><![CDATA[/careswork/countryprofiles/58.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="206" yPos="321" pos="br">Ivory Coast</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="206" yPos="172" pos="tl">Mali</name>
+				<link><![CDATA[/careswork/countryprofiles/78.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="308" yPos="188" pos="tl">Niger</name>
+				<link><![CDATA[/careswork/countryprofiles/84.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="186" yPos="288" pos="tlclose">Cote d'Ivoire</name>
+				<link><![CDATA[/careswork/countryprofiles/120.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="248" yPos="291" pos="br">Togo</name>
+				<link><![CDATA[/careswork/countryprofiles/120.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="148" yPos="310" pos="bl">Liberia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="97" yPos="226" pos="tlclose">Senegal</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="123" yPos="282" pos="blclose">Sierra Leone</name>
+				<link><![CDATA[]]></link>
+			</country>
+		</countries>
+	</region>
+	<region>
+		<name show="true" xPos="322" yPos="222" pos="tr">East &amp; Central Africa</name>
+		<image><![CDATA[images/map-AfricaEastCentral.gif]]></image>
+		<countries>
+			<country show="true">
+				<name xPos="278" yPos="226" pos="tl">Uganda</name>
+				<link><![CDATA[/careswork/countryprofiles/103.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="259" yPos="255" pos="trclose">Burundi</name>
+				<link><![CDATA[/careswork/countryprofiles/26.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="205" yPos="263" pos="tl" font="2lines"><![CDATA[Democratic Republic<br> of Congo]]></name>
+				<link><![CDATA[/careswork/countryprofiles/115.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="310" yPos="133" pos="trfar">Eritrea</name>
+				<link><![CDATA[/careswork/countryprofiles/112.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="328" yPos="184" pos="trfar">Ethiopia</name>
+				<link><![CDATA[/careswork/countryprofiles/56.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="316" yPos="245" pos="brfar">Kenya</name>
+				<link><![CDATA[/careswork/countryprofiles/68.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="360" yPos="216" pos="tr">Somalia</name>
+				<link><![CDATA[/careswork/countryprofiles/95.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="256" yPos="264" pos="blfar">Rwanda</name>
+				<link><![CDATA[/careswork/countryprofiles/93.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="258" yPos="135" pos="tl">Sudan</name>
+				<link><![CDATA[/careswork/countryprofiles/98.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="302" yPos="306" pos="br">Tanzania</name>
+				<link><![CDATA[/careswork/countryprofiles/115.asp]]></link>
+			</country>
+		</countries>
+	</region>
+	<region>
+		<name show="true" xPos="322" yPos="270" pos="br">Southern Africa</name>
+		<image><![CDATA[images/map-AfricaSouth.gif]]></image>
+		<countries>
+			<country show="true">
+				<name xPos="200" yPos="202" pos="bl">Angola</name>
+				<link><![CDATA[/careswork/countryprofiles/2.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="279" yPos="331" pos="br">Lesotho</name>
+				<link><![CDATA[/careswork/countryprofiles/74.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="416" yPos="263" pos="br">Madagascar</name>
+				<link><![CDATA[/careswork/countryprofiles/76.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="328" yPos="207" pos="tlfar">Malawi</name>
+				<link><![CDATA[/careswork/countryprofiles/77.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="353" yPos="223" pos="tr">Mozambique</name>
+				<link><![CDATA[/careswork/countryprofiles/79.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="280" yPos="217" pos="tl">Zambia</name>
+				<link><![CDATA[/careswork/countryprofiles/109.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="238" yPos="326" pos="bl">South Africa</name>
+				<link><![CDATA[/careswork/countryprofiles/109.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="296" yPos="250" pos="bl">Zimbabwe</name>
+				<link><![CDATA[/careswork/countryprofiles/109.asp]]></link>
+			</country>
+		</countries>
+	</region>
+	<region>
+		<name show="true" xPos="159" yPos="240" pos="tl" >Latin America &amp; Caribbean </name>
+		<image><![CDATA[images/map-latinAmerica.gif]]></image>
+		<countries>
+			<country show="true">
+				<name xPos="316" yPos="380" pos="tr">Argentina</name>
+				<link><![CDATA[/careswork/countryprofiles/6.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="300" yPos="300" pos="tr">Bolivia</name>
+				<link><![CDATA[/careswork/countryprofiles/6.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="216" yPos="214" pos="bl">Ecuador</name>
+				<link><![CDATA[/careswork/countryprofiles/53.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="155" yPos="123" pos="blfar">El Salvador</name>
+				<link><![CDATA[/careswork/countryprofiles/55.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="145" yPos="116" pos="tlclose">Guatemala</name>
+				<link><![CDATA[/careswork/countryprofiles/59.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="234" yPos="76" pos="trclose">Cuba</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="259" yPos="89" pos="br">Haiti</name>
+				<link><![CDATA[/careswork/countryprofiles/61.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="172" yPos="113" pos="tl">Honduras</name>
+				<link><![CDATA[/careswork/countryprofiles/62.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="179" yPos="128" pos="br">Nicaragua</name>
+				<link><![CDATA[/careswork/countryprofiles/83.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="240" yPos="275" pos="bl">Peru</name>
+				<link><![CDATA[/careswork/countryprofiles/89.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="362" yPos="246" pos="tr">Brazil</name>
+				<link><![CDATA[]]></link>
+			</country>
+		</countries>
+	</region>
+	<region>
+		<name show="true" xPos="340" yPos="141" pos="tl">Middle East &amp; Europe</name>
+		<image><![CDATA[images/map-middleEastEurope.gif]]></image>
+		<countries>
+			<country show="true">
+				<name xPos="352" yPos="174" pos="trclose">Armenia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="247" yPos="290" pos="bl">Egypt</name>
+				<link><![CDATA[/careswork/countryprofiles/54.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="158" yPos="143" pos="blclose">Bosnia and Herzegovina</name>
+				<link><![CDATA[/careswork/countryprofiles/45.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="145" yPos="142" pos="tlclose">Croatia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="210" yPos="126" pos="tr">Romania</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="214" yPos="158" pos="trclose">Bulgaria</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="337" yPos="153" pos="tr">Georgia</name>
+				<link><![CDATA[/careswork/countryprofiles/57.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="303" yPos="262" pos="br">Jordan</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="191" yPos="167" pos="brclose">Kosovo</name>
+				<link><![CDATA[/careswork/countryprofiles/70.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="176" yPos="174" pos="blfar">Montenegro</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="297" yPos="234" pos="tr">Lebanon</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="176" yPos="134" pos="tl">Serbia</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="324" yPos="223" pos="br">Syria</name>
+				<link><![CDATA[]]></link>
+			</country>
+			<country show="true">
+				<name xPos="290" yPos="255" pos="tlclose">West Bank / Gaza</name>
+				<link><![CDATA[/careswork/countryprofiles/105.asp]]></link>
+			</country>
+			<country show="true">
+				<name xPos="407" yPos="372" pos="tr">Yemen</name>
+				<link><![CDATA[]]></link>
+			</country>
+		</countries>
+	</region>
+	
+</worldmap>

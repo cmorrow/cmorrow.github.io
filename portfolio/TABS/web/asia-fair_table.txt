@@ -1,0 +1,43 @@
+<table class="rounded">
+	<tbody>
+		<tr class="heading">
+			<td colspan="3">
+				<h3>Heading</h3>
+				<p>text goes here</p>
+			</td>
+		</tr>
+		<tr class="dark">
+			<td class="left">City</td>
+			<td>Member</td>
+			<td class="right">Non-member</td>
+		</tr>
+		<tr>
+			<td class="left">Bangkok</td>
+			<td>$950</td>
+			<td class="right">$1,950</td>
+		</tr>
+		<tr>
+			<td class="left">Bangkok</td>
+			<td>$950</td>
+			<td class="right">$1,950</td>
+		</tr>
+		<tr>
+			<td class="left">Bangkok</td>
+			<td>$950</td>
+			<td class="right">$1,950</td>
+		</tr>
+		<tr>
+			<td class="left"><strong>All TABS Fairs</strong><br/><em>(except for Hong Kong)</em></td>
+			<td>$7,920</td>
+			<td class="right">$18,000</td>
+		</tr>
+		<tr class="lastRow">
+			<td class="left"><strong>All TABS Fairs & Hong Kong</strong></td>
+			<td>$9,070</td>
+			<td class="right"/>
+		</tr>
+		<tr>
+			<td class="bottom" colspan="3"> </td>
+		</tr>
+	</tbody>
+</table>

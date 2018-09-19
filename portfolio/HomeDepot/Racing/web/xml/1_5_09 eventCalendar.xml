@@ -1,0 +1,4627 @@
+<eventCalendar>
+	
+	<!-- three are 7 event types -->
+	<!-- JoeyAppearance, ShowcarAppearance, VIPZone, RaceDay, TracksideDisplay, SprintCup, CampingWorldSeries, NationwideSeries -->
+	
+	<!-- the date format for all events is MM/DD/YYYY -->
+	<!-- any deviation from the above date format will cause the event to show up in the wrong place -->
+	<date value="01/01/2009">
+	
+	</date>
+
+
+<date value="02/07/2009">
+
+	<event>
+			<eventName>Budweiser Shootout</eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Daytona International Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>FL</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.daytonainternationalspeedway.com</officialLink>             
+		</event>
+
+	</date>
+
+<date value="02/10/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>10 Garden Street North</address>
+      		<city>Palm Coast</city>
+      		<state>FL</state>
+      		<zip>32127</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6363</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6363&store=6363&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+	
+<date value="02/11/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1551 Dunlawton Blvd</address>
+      		<city>Port Orange</city>
+      		<state>FL</state>
+      		<zip>32127</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6335</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6335&store=6335&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+		</event>
+	
+	</date>
+
+
+<date value="02/12/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2455 Int'L Speedwy Blvd.</address>
+      		<city>Daytona Beach</city>
+      		<state>FL</state>
+      		<zip>32114</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>233</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=233&store=233&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="02/13/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2359 State Rd. 44</address>
+      		<city>New Smyrna Beach</city>
+      		<state>FL</state>
+      		<zip>32168</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6936</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6936&store=6936&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Daytona International Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>FL</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.daytonainternationalspeedway.com</officialLink>             
+		</event>
+
+	</date>
+	
+	
+
+<date value="02/14/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2300 Veterans Memorial</address>
+      		<city>Orange City</city>
+      		<state>FL</state>
+      		<zip>32763</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6323</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6323&store=6323&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+		</event>
+
+		
+		<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Daytona International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.daytonainternationalspeedway.com</officialLink>             
+		</event>
+	
+	</date>
+
+<date value="02/15/2009">
+			
+
+
+	<event>
+			<eventName>Daytona 500</eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Daytona International Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>FL</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.daytonainternationalspeedway.com</officialLink>             
+		</event>
+
+
+	
+	</date>
+
+
+<date value="02/18/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>250 S Mountain</address>
+      		<city>Upland</city>
+      		<state>CA</state>
+      		<zip>91786</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>687</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=687&store=687&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+<date value="02/19/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2980 S. Euclid Ave.</address>
+      		<city>Ontario</city>
+      		<state>CA</state>
+      		<zip>91762</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6884</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6884&store=6884&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="02/20/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>118884 Foothill Blvd.</address>
+      		<city>Rancho Cucamonga</city>
+      		<state>CA</state>
+      		<zip>91730</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>645</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=645&store=645&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="02/21/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>6140 Hamner Ave.</address>
+      		<city>Mira Loma</city>
+      		<state>CA</state>
+      		<zip>91752</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1084</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1084&store=1084&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	
+
+		<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Auto Club Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>http://www.autoclubspeedway.com/</officialLink>             
+		</event>
+
+		<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Auto Club Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>http://www.autoclubspeedway.com/</officialLink>             
+		</event>
+
+	</date>
+
+
+<date value="02/22/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>14549 Ramona Ave.</address>
+      		<city>Chino</city>
+      		<state>CA</state>
+      		<zip>91710</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6876</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6876&store=6876&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Auto Club Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>http://www.autoclubspeedway.com/</officialLink>              
+		</event>
+
+
+	
+	</date>
+
+
+
+
+<date value="02/25/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>6025 So. Pacos Rd.</address>
+      		<city>Las Vegas</city>
+      		<state>NV</state>
+      		<zip>89120</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3316</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3316&store=3316&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+<date value="02/26/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1401 S Lamb Blvd</address>
+      		<city>Las Vegas</city>
+      		<state>NV</state>
+      		<zip>89104</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3303</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3303&store=3303&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="02/27/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1275 W Craig Rd.</address>
+      		<city>Las Vegas</city>
+      		<state>NV</state>
+      		<zip>89032</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3307</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3307&store=3307&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+
+<date value="02/28/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>7881 W Tropical Pkwy.</address>
+      		<city>Las Vegas</city>
+      		<state>NV</state>
+      		<zip>89149</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3305</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3305&store=3305&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+		
+		</event>
+
+		<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Las Vegas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NV</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lvms.com/</officialLink>             
+		</event>
+	
+
+	
+	</date>
+
+<date value="03/01/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>861 S Rainbow Blvd.</address>
+      		<city>Las Vegas</city>
+      		<state>NV</state>
+      		<zip>89145</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3301</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3301&store=3301&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Las Vegas Motor Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>NV</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.lvms.com</officialLink>             
+		</event>
+	
+	</date>
+
+
+<date value="03/04/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2034 Mt. Zion Rd.</address>
+      		<city>Morrow</city>
+      		<state>GA</state>
+      		<zip>30260</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>114</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=114&store=114&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+
+<date value="03/05/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1750 Jonesboro Road</address>
+      		<city>McDonough</city>
+      		<state>GA</state>
+      		<zip>30253</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>157</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=157&store=157&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="03/06/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>11075 Tara Blvd.</address>
+      		<city>Lovejoy</city>
+      		<state>GA</state>
+      		<zip>30250</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6848</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6848&store=6848&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+
+<date value="03/07/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1435 Hwy.16 West</address>
+      		<city>Griffin</city>
+      		<state>GA</state>
+      		<zip>30224</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>138</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=138&store=138&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Atlanta Motor Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>GA</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.atlantamotorspeedway.com</officialLink>             
+		</event>
+
+	
+	</date>
+
+
+<date value="03/08/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>103 Pavillion Pkwy.</address>
+      		<city>Fayetteville</city>
+      		<state>GA</state>
+      		<zip>30214</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>127</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=127&store=127&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+		</event>
+
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Atlanta Motor Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>GA</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.atlantamotorspeedway.com</officialLink>   
+          
+		</event>
+		</date>
+
+
+
+<date value="03/21/2009">
+
+		<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Bristol Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>http://bristolmotorspeedway.com/</officialLink> 
+	</event>            
+		</date>
+
+
+<date value="03/22/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Bristol Motor Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>VA</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.bristolmotorspeedway.com</officialLink>             
+		</event>
+		</date>
+
+
+<date value="03/24/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>625 Hampton Point Blvd.</address>
+      		<city>Hillsborough</city>
+      		<state>NC</state>
+      		<zip>27278</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3661</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3661&store=3661&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="03/25/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2912 S. Elm Eugene St.</address>
+      		<city>Greensboro</city>
+      		<state>NC</state>
+      		<zip>27406</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3651</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3651&store=3651&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="03/26/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2771-T kirkwood Dr.</address>
+      		<city>Burlington</city>
+      		<state>NC</state>
+      		<zip>27216</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3627</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3627&store=3627&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="03/27/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>175 Holt Garrison Pkwy.</address>
+      		<city>Danville</city>
+      		<state>VA</state>
+      		<zip>24540</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>8493</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=8493&store=8493&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="03/28/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3215 Brasfield Rd.</address>
+      		<city>Greensboro</city>
+      		<state>NC</state>
+      		<zip>27410</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3605</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3605&store=3605&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Martinsville Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>VA</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.martinsvillespeedway.com</officialLink>   
+          
+		</event>
+	
+	
+	</date>
+
+<date value="03/29/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Martinsville Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>VA</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.martinsvillespeedway.com</officialLink>        
+     
+		</event>
+		</date>
+
+
+<date value="04/01/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>900 Brinker Rd</address>
+      		<city>Denton</city>
+      		<state>TX</state>
+      		<zip>76205</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6840</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6840&store=6840&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+
+
+<date value="04/02/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>901 N Stemmons Pkwy</address>
+      		<city>Lewisville</city>
+      		<state>TX</state>
+      		<zip>75067</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>524</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=524&store=524&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="04/03/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>852 International Pkwy.</address>
+      		<city>Flower Mound</city>
+      		<state>TX</state>
+      		<zip>75056</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6572</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6572&store=6572&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+
+<date value="04/04/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>125 E State Hwy. 114</address>
+      		<city>Roanoke</city>
+      		<state>TX</state>
+      		<zip>76262</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6581</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6581&store=6581&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Texas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.texasmotorspeedway.com</officialLink> 
+	</event>
+
+	</date>
+
+<date value="04/05/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>5321 Hwy. 121</address>
+      		<city>The Colony</city>
+      		<state>TX</state>
+      		<zip>75056</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6562</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6562&store=6562&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+			
+
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Texas Motor Speedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>TX</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.texasmotorspeedway.com</officialLink>             
+		</event>
+	
+
+	
+	</date>
+
+
+<date value="04/11/2009">
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Nashville Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.phoenixinternationalraceway.com</officialLink>    
+	</event>         
+		
+
+	</date>
+
+
+<date value="04/17/2009">
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Phoenix International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>AZ</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nashvillesuperspeedway.com/</officialLink>    
+	</event>         
+		
+
+	</date>
+
+
+
+<date value="04/18/2009">
+			
+
+		
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Phoenix International Raceway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>AZ</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.phoenixinternationalraceway.com</officialLink>             
+		</event>
+	
+
+	
+	</date>
+
+
+
+<date value="04/21/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1600 Gadsden Hwy.</address>
+      		<city>Trussville</city>
+      		<state>AL</state>
+      		<zip>35173</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>887</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=887&store=887&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="04/22/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>4995 Hwy. 280</address>
+      		<city>Inverness</city>
+      		<state>AL</state>
+      		<zip>35242</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>875</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=875&store=875&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="04/23/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>289 Vaughn Lane</address>
+      		<city>Pell City</city>
+      		<state>AL</state>
+      		<zip>35125</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>818</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=818&store=818&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="04/24/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>41310 US Hwy 280</address>
+      		<city>Sylacauga</city>
+      		<state>AL</state>
+      		<zip>35150</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>809</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=809&store=809&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="04/25/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>4350 Crystal Water Dr.</address>
+      		<city>Oxford</city>
+      		<state>AL</state>
+      		<zip>36203</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>866</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=866&store=866&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+	
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Talladega Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>AL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.talladegasuperspeedway.com</officialLink>  
+		</event>           
+		
+	<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Kansas Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>KS</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.kansasspeedway.com</officialLink>  
+		</event>   
+
+	
+	</date>
+
+
+
+
+<date value="04/26/2009">
+			
+
+		
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Talladega Superspeedway</venue>
+      		<address></address>
+      		<city></city>
+      		<state>AL</state>
+      		<zip></zip>
+      		<time></time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber></storeNumber>
+      		<directionLink></directionLink>      
+      		<officialLink>www.talladegasuperspeedway.com</officialLink>             
+		</event>
+	
+
+	
+	</date>
+
+
+<date value="05/01/2009">
+			
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Richmond International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.rir.com</officialLink> 
+	</event>            
+		
+
+	
+	</date>
+
+
+<date value="05/02/2009">
+			
+
+		
+
+	<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Richmond International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.rir.com</officialLink>  
+	</event>
+	
+
+	
+	</date>
+
+
+
+<date value="05/05/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>12262 Hwy. 17 Bypass</address>
+      		<city>Murrells Inlet</city>
+      		<state>SC</state>
+      		<zip>29576</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1122</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1122&store=1122&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="05/06/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>951 Oak Forest Land</address>
+      		<city>Myrtle Beach</city>
+      		<state>SC</state>
+      		<zip>29577</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1116</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1116&store=1116&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="05/07/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3051 West Radio Dr.</address>
+      		<city>Florence</city>
+      		<state>SC</state>
+      		<zip>29577</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>8580</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=8580&store=8580&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+<date value="05/08/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>285 Forum Dr.</address>
+      		<city>Columbia</city>
+      		<state>SC</state>
+      		<zip>29229</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1109</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1109&store=1109&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+
+	
+	
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Darlington Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>SC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.darlingtonraceway.com</officialLink>
+	</event>             
+		
+
+	
+	</date>
+
+
+<date value="05/09/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1116 US Hwy.521</address>
+      		<city>Lancaster</city>
+      		<state>SC</state>
+      		<zip>29720</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>8913</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=8913&store=8913&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>
+			
+
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Darlington Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>SC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.darlingtonraceway.com</officialLink> 
+	</event>
+	
+
+	
+	</date>
+
+
+<date value="05/15/2009">
+			
+		
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink>     
+	</event>         
+		
+
+	
+	</date>
+
+	
+
+<date value="05/16/2009">
+			
+	
+		<event>
+			<eventName>Sprint All-Star Race</eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink> 
+	</event>
+	
+
+	
+	</date>
+	
+	
+
+<date value="05/19/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>9501 Albemarle Rd.</address>
+      		<city>Charlotte</city>
+      		<state>NC</state>
+      		<zip>28227</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3639</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3639&store=3639&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="05/20/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>900-1 Metropolitan Ave.</address>
+      		<city>Charlotte</city>
+      		<state>NC</state>
+      		<zip>28204</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3649</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3649&store=3649&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="05/21/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>17111 Statesville Road</address>
+      		<city>Cornelius</city>
+      		<state>NC</state>
+      		<zip>28031</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3638</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3638&store=3638&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="05/22/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3313 Cloverleaf Plaza</address>
+      		<city>Kannapolis</city>
+      		<state>NC</state>
+      		<zip>28083</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3607</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3607&store=3607&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="05/23/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>8135 University City Blvd.</address>
+      		<city>Charlotte</city>
+      		<state>NC</state>
+      		<zip>28213</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3603</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3603&store=3603&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink> 
+	</event>   
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Mansfield Motorsports Park</venue>
+			<address></address>
+			<city></city>
+			<state>OH</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>mansfieldmotorsportsonline.com</officialLink> 
+	</event>
+	
+
+	     
+		
+	
+	</date>
+
+
+
+<date value="05/24/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink> 
+	</event>
+	
+
+	
+	</date>
+
+<date value="05/29/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Dover International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>DE</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.doverspeedway.com</officialLink>
+	</event>
+	
+
+	
+	</date>
+
+
+<date value="05/30/2009">
+			
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Dover International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>DE</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.doverspeedway.com</officialLink>   
+	</event>          
+		
+	
+	</date>
+
+
+<date value="05/31/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Dover International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>DE</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.doverspeedway.com</officialLink>
+	</event>   
+	
+
+	
+	</date>
+
+
+<date value="06/02/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>150 Pocono Commons</address>
+      		<city>Stroudsburg</city>
+      		<state>PA</state>
+      		<zip>18360</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4127</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4127&store=4127&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="06/03/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3926 Linden Street</address>
+      		<city>Bethlehem</city>
+      		<state>PA</state>
+      		<zip>18020</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4105</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4105&store=4105&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="06/04/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>721 S 25th Street</address>
+      		<city>Easton</city>
+      		<state>PA</state>
+      		<zip>18045</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4173</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4173&store=4173&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="06/05/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1209 Route 22</address>
+      		<city>Phillipsburg</city>
+      		<state>NJ</state>
+      		<zip>08865</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>931</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=931&store=931&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+			
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Texas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.texasmotorspeedway.com</officialLink>
+	</event>
+	
+
+	
+	</date>
+
+
+<date value="06/06/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2045 Route 57</address>
+      		<city>Hackettstown</city>
+      		<state>NJ</state>
+      		<zip>07840</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>953</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=953&store=953&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Nashville Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nashvillesuperspeedway.com</officialLink>    
+	</event>         
+		
+	
+	</date>
+
+
+<date value="06/07/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Pocono Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>PA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.poconoraceway.com</officialLink>   
+	</event>
+	
+
+	
+	</date>
+
+
+<date value="06/13/2009">
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Kentucky Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>KY</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.kentuckyspeedway.com</officialLink>      
+
+		</event>
+
+		<event>
+
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Michigan International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.mispeedway.com</officialLink>   
+		</event>      
+		
+	
+	</date>
+
+
+<date value="06/14/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Michigan International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.mispeedway.com</officialLink>   
+	</event>
+	
+
+	
+	</date>
+
+
+
+<date value="06/16/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>225 Soscol Ave.</address>
+      		<city>Napa</city>
+      		<state>CA</state>
+      		<zip>94559</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6652</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6652&store=6652&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="06/17/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2000 Lakeville Hwy.</address>
+      		<city>Petaluma</city>
+      		<state>CA</state>
+      		<zip>94954</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1382</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1382&store=1382&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="06/18/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1801 Fourth St.</address>
+      		<city>San Rafael</city>
+      		<state>CA</state>
+      		<zip>94901</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1383</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1383&store=1383&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="06/19/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>4825 Redwood Dr.</address>
+      		<city>Rohnert Park</city>
+      		<state>CA</state>
+      		<zip>94928</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>641</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=641&store=641&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>The Milwaukee Mile</venue>
+			<address></address>
+			<city></city>
+			<state>WI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.milwaukeemile.com</officialLink>     
+	</event>  
+	
+	</date>
+
+<date value="06/20/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>100 Bicentenial Way</address>
+      		<city>Santa Rosa</city>
+      		<state>CA</state>
+      		<zip>95403</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1379</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1379&store=1379&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>The Milwaukee Mile</venue>
+			<address></address>
+			<city></city>
+			<state>WI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.milwaukeemile.com</officialLink>     
+	</event>        
+		
+	
+	</date>
+
+
+<date value="06/21/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Infineon Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>http://www.infineonraceway.com/</officialLink>  
+	</event> 
+	
+
+	
+	</date>
+
+<date value="06/23/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>129 March Ave.</address>
+      		<city>Manchester</city>
+      		<state>NH</state>
+      		<zip>03103</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3482</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3482&store=3482&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="06/24/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>300 Quality Dr.</address>
+      		<city>Hooskett</city>
+      		<state>NH</state>
+      		<zip>03106</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3403</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3403&store=3403&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="06/25/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>160 Laconia Road</address>
+      		<city>Tilton</city>
+      		<state>NH</state>
+      		<zip>03276</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3402</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3402&store=3402&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="06/26/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>42 D'Amante Dr.</address>
+      		<city>Concord</city>
+      		<state>NH</state>
+      		<zip>03301</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3485</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3485&store=3485&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="06/27/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>280 Main St.</address>
+      		<city>Rochester</city>
+      		<state>NH</state>
+      		<zip>03867</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3489</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3489&store=3489&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>New Hampshire Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NH</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nhms.com</officialLink> 
+	</event>            
+
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Memphis Motorsports Park</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.memphismotorsports.com</officialLink> 
+	</event>     
+		
+		
+	</date>
+
+<date value="06/28/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>New Hampshire Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NH</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nhms.com</officialLink>  
+		</event>
+
+	
+	</date>
+
+
+<date value="07/03/2009">
+			
+		<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Daytona International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.daytonainternationalspeedway.com</officialLink>  
+	</event>           
+		
+		
+	</date>
+
+<date value="07/04/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Daytona International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.daytonainternationalspeedway.com</officialLink> 
+	</event> 
+	
+
+	
+	</date>
+
+
+<date value="07/07/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>20101 Lagrange Rd.</address>
+      		<city>Frankfort</city>
+      		<state>IL</state>
+      		<zip>60423</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6919</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6919&store=6919&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="07/08/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>14053 So. Bell Rd.</address>
+      		<city>Homer Glen</city>
+      		<state>IL</state>
+      		<zip>60491</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1989</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1989&store=1989&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+<date value="07/09/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>105 N Weber Rd.</address>
+      		<city>Boilingbrook</city>
+      		<state>IL</state>
+      		<zip>60490</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1939</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1939&store=1939&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="07/10/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3001 Plainfield Rd.</address>
+      		<city>Joliet</city>
+      		<state>IL</state>
+      		<zip>60435</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1962</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1962&store=1962&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Chicagoland Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>IL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.chicagolandspeedway.com</officialLink>  
+	</event>           
+		
+	
+	</date>
+
+<date value="07/11/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>621 Brook Forest Ave.</address>
+      		<city>Shorewood</city>
+      		<state>IL</state>
+      		<zip>60431</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6925</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6925&store=6925&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      				<venue>Chicagoland Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>IL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.chicagolandspeedway.com</officialLink> 
+	</event>
+	
+
+	
+
+	
+	</date>
+
+
+<date value="07/18/2009">
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Gateway International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MO</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.gatewayraceway.com</officialLink>    
+	</event>       
+		
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Kentucky Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>KY</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.kentuckyspeedway.com</officialLink>    
+	</event>  
+	
+	</date>
+
+
+<date value="07/21/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>4850 E Southport Rd.</address>
+      		<city>Indianapolis</city>
+      		<state>IN</state>
+      		<zip>46237</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2012</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2012&store=2012&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="07/22/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>9855 No. Michigan Rd.</address>
+      		<city>Carmel</city>
+      		<state>IN</state>
+      		<zip>46032</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2037</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2037&store=2037&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="07/23/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>9320 Corporation Dr.</address>
+      		<city>Indianapolis</city>
+      		<state>IN</state>
+      		<zip>46256</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2018</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2018&store=2018&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="07/24/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2225 Post Rd.</address>
+      		<city>Indianapolis</city>
+      		<state>IN</state>
+      		<zip>46219</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2011</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2011&store=2011&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>O'Reilly Raceway Park</venue>
+			<address></address>
+			<city></city>
+			<state>IN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.oreillyracewaypark.com</officialLink>     
+	</event>  
+	
+	</date>
+
+<date value="07/25/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3902 N High School Rd.</address>
+      		<city>Indianapolis</city>
+      		<state>IN</state>
+      		<zip>46254</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2014</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2014&store=2014&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+
+
+	</event>	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>O'Reilly Raceway Park</venue>
+			<address></address>
+			<city></city>
+			<state>IN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.oreillyracewaypark.com</officialLink>     
+	</event>        
+		
+	</date>
+
+<date value="07/26/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Indianapolis Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>IN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.indianapolismotorspeedway.com</officialLink> 
+	</event>
+	</date> 
+
+
+<date value="08/01/2009">
+			
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Iowa Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>IA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.iowaspeedway.com</officialLink>    
+		</event>    
+
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Nashville Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nashvillesuperspeedway.com</officialLink>    
+		</event>     
+		
+	</date>
+
+<date value="08/02/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Pocono Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>PA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.poconoraceway.com</officialLink> 
+	</event>
+	<date>
+
+
+<date value="08/06/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3160 Silverback Lane</address>
+      		<city>Painted Post</city>
+      		<state>NY</state>
+      		<zip>14870</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6159</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6159&store=6159&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="08/07/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>410 Elmira Rd. Bldg. 1</address>
+      		<city>Ithaca</city>
+      		<state>NY</state>
+      		<zip>14850</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6155</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6155&store=6155&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="08/08/2009">
+			
+	
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Watkins Glen International</venue>
+			<address></address>
+			<city></city>
+			<state>NY</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.theglen.com</officialLink>   
+	</event>          
+		
+	</date>
+
+
+<date value="08/09/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Watkins Glen International</venue>
+			<address></address>
+			<city></city>
+			<state>NY</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.theglen.com</officialLink>
+	</event>
+	</date>
+
+
+<date value="08/11/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3300 Carpenter Rd.</address>
+      		<city>Ypsilanti</city>
+      		<state>MI</state>
+      		<zip>48197</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2721</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2721&store=2721&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="08/12/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>8053 Challis Rd.</address>
+      		<city>Brighton</city>
+      		<state>MI</state>
+      		<zip>48116</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2724</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2724&store=2724&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="08/13/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3330 E Grand River Ave.</address>
+      		<city>Howell</city>
+      		<state>MI</state>
+      		<zip>48843</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2751</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2751&store=2751&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="08/14/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1400 N Wisner Rd.</address>
+      		<city>Jackson</city>
+      		<state>MI</state>
+      		<zip>49202</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2770</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2770&store=2770&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="08/15/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>825 E Chicago</address>
+      		<city>Coldwater</city>
+      		<state>MI</state>
+      		<zip>49036</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2766</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2766&store=2766&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Michigan International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.mispeedway.com</officialLink>  
+	</event>           
+		
+	
+	</date>
+
+<date value="08/16/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Michigan International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MI</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.mispeedway.com</officialLink>
+	</event>
+	</date>
+
+
+<date value="08/19/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3207 Peoples St.</address>
+      		<city>JOhnson City</city>
+      		<state>TN</state>
+      		<zip>37604</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>701</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=701&store=701&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>
+
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Bristol Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.bristolmotorspeedway.com</officialLink>
+	</event>
+	
+	</date>
+
+
+	
+<date value="08/20/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3481 Lee Highway</address>
+      		<city>Bristol</city>
+      		<state>TN</state>
+      		<zip>24202</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4658</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4658&store=4658&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+<date value="08/21/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2000 Harrell Rd</address>
+      		<city>Kingsport</city>
+      		<state>TN</state>
+      		<zip>37660</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>702</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=702&store=702&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+
+	</event>
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Bristol Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.bristolmotorspeedway.com</officialLink>  
+	</event>           
+		
+	
+	
+	</date>
+
+
+<date value="08/22/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Bristol Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.bristolmotorspeedway.com</officialLink>
+
+	</event>
+	</date>
+
+
+<date value="08/28/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      			<venue>Chicagoland Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>IL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.chicagolandspeedway.com</officialLink>
+	</event>
+	</date>
+
+
+<date value="08/30/2009">
+			
+
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Circuit Gilles Villeneuve</venue>
+			<address></address>
+			<city></city>
+			<state>Canada</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.circuitgillesvilleneuve.ca</officialLink> 
+	</event>            
+		
+	</date>
+
+
+<date value="09/05/2009">
+			
+
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Atlanta Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>GA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.atlantamotorspeedway.com</officialLink>
+	</event>             
+		
+	
+	
+	</date>
+
+
+
+<date value="09/06/2009">
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      				<venue>Atlanta Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>GA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.atlantamotorspeedway.com</officialLink>             
+		</event>
+	</date>
+
+
+
+<date value="09/09/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>2600 Conduit Rd.</address>
+      		<city>Colonial Heights</city>
+      		<state>VA</state>
+      		<zip>23834</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4633</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4633&store=4633&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+	
+<date value="09/10/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>12300 Jefferson Davis Hwy</address>
+      		<city>Chester</city>
+      		<state>VA</state>
+      		<zip>23881</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4616</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4616&store=4616&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="09/11/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>6501 W. Broad St.</address>
+      		<city>Richmond</city>
+      		<state>VA</state>
+      		<zip>23230</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4632</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4632&store=4632&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>
+
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Richmond International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.rir.com</officialLink>    
+	</event>
+	
+	</date>
+
+
+<date value="09/12/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1386 Car Mia Way</address>
+      		<city>Midlothian</city>
+      		<state>VA</state>
+      		<zip>23236</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4631</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4631&store=4631&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+			
+	
+		<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Richmond International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.rir.com</officialLink>              
+		</event>
+
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      			<venue>Gateway International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>MO</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.gatewayraceway.com</officialLink>              
+		</event>
+	</date>
+	
+
+
+<date value="09/13/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>12300 Chattanooga Plaza</address>
+      		<city>Midlothian</city>
+      		<state>VA</state>
+      		<zip>23112</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>4627</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=4627&store=4627&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="09/19/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      			<venue>New Hampshire Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NH</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nhms.com</officialLink>              
+		</event>
+	</date>
+
+
+<date value="09/20/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>New Hampshire Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NH</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.nhms.com</officialLink>              
+		</event>
+	</date>
+
+
+<date value="09/22/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>21 Indian Trail</address>
+      		<city>Cape May</city>
+      		<state>NJ</state>
+      		<zip>08210</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>943</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=943&store=943&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="09/23/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>350 Auto Park Dr.</address>
+      		<city>Middletown</city>
+      		<state>DE</state>
+      		<zip>19709</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6843</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6843&store=6843&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="09/24/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>801 N Dupont Highway</address>
+      		<city>Dover</city>
+      		<state>DE</state>
+      		<zip>19901</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1608</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1608&store=1608&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="09/25/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>17832 Coastal Hwy.</address>
+      		<city>Lewes</city>
+      		<state>DE</state>
+      		<zip>19958</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>1604</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=1604&store=1604&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="09/26/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>115 North Pointe Dr.</address>
+      		<city>Salisbury</city>
+      		<state>MD</state>
+      		<zip>21804</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2561</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2561&store=2561&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+
+
+		</event>
+
+
+			<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Dover International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>DE</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.doverspeedway.com</officialLink>   
+		</event>
+
+
+			<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Las Vegas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NV</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lvms.com</officialLink>   
+		</event>
+
+	</date>
+
+<date value="09/27/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Dover International Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>DE</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.doverspeedway.com</officialLink>              
+		</event>
+	</date>
+
+
+<date value="09/30/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>111 E Linwood Ave.</address>
+      		<city>Kansas City</city>
+      		<state>MO</state>
+      		<zip>64111</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>3021</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=3021&store=3021&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="10/01/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>9600 Metcalf</address>
+      		<city>Overland Park</city>
+      		<state>KS</state>
+      		<zip>66212</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2203</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2203&store=2203&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+<date value="10/02/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>11850 S Strang Line Rd.</address>
+      		<city>Olathe</city>
+      		<state>KS</state>
+      		<zip>66062</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2201</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2201&store=2201&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="10/03/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>15501 W 67th St.</address>
+      		<city>Shawnee</city>
+      		<state>KS</state>
+      		<zip>66217</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2213</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2213&store=2213&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+
+	</event>
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Kansas Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>KS</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.kansasspeedway.com</officialLink>   
+	</event>
+
+	
+	</date>
+
+
+<date value="10/04/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>5700 Antioch</address>
+      		<city>Merriam</city>
+      		<state>KS</state>
+      		<zip>66202</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>2202</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=2202&store=2202&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Kansas Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>KS</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.kansasspeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+<date value="10/10/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Auto Club Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.autoclubspeedway.com</officialLink>   
+	</event>
+
+	
+	</date>
+
+
+<date value="10/11/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Auto Club Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>CA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.autoclubspeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+<date value="10/16/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink> 
+	</event>  
+
+	
+	</date>
+
+
+<date value="10/17/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Lowe's Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>NC</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.lowesmotorspeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+<date value="10/24/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Memphis Motorsports Park</venue>
+			<address></address>
+			<city></city>
+			<state>TN</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.memphismotorsports.com</officialLink>   
+	</event>
+
+		<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      			<venue>Martinsville</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.martinsvillespeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+
+<date value="10/25/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Martinsville</venue>
+			<address></address>
+			<city></city>
+			<state>VA</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.martinsvillespeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+<date value="10/31/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      			<venue>Talladega Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>AL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.talladegasuperspeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+<date value="11/01/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      			<venue>Talladega Superspeedway</venue>
+			<address></address>
+			<city></city>
+			<state>AL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.talladegasuperspeedway.com</officialLink>              
+		</event>
+
+	
+	</date>
+
+
+<date value="11/06/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Camping World Series</eventType>
+			<venue>Texas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.texasmotorspeedway.com</officialLink>   
+	</event>
+
+	
+	</date>
+
+
+<date value="11/07/2009">
+			
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Texas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.texasmotorspeedway.com</officialLink>   
+	</event>
+
+	
+	</date>
+
+<date value="11/08/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Texas Motor Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.texasmotorspeedway.com</officialLink>                 
+		</event>
+
+	
+	</date>
+
+
+<date value="11/10/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>7333 McDowell</address>
+      		<city>Phoenix</city>
+      		<state>AZ</state>
+      		<zip>85035</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>455</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=455&store=455&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="11/11/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>5230 W. Baseline Rd</address>
+      		<city>Laveen</city>
+      		<state>AZ</state>
+      		<zip>85339</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>447</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=447&store=447&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+
+
+<date value="11/12/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>1489 N Dysart Road</address>
+      		<city>Avondale</city>
+      		<state>AZ</state>
+      		<zip>85323</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>441</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=441&store=441&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink>
+	</event> 
+	
+	</date>
+
+<date value="11/13/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>4848 N.43rd Ave.</address>
+      		<city>Phoenix</city>
+      		<state>AZ</state>
+      		<zip>85031</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>485</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=485&store=485&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	
+	</event>
+	</date>
+
+
+
+
+
+<date value="11/13/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      		<venue>Phoenix International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.phoenixinternationalraceway.com</officialLink>                
+		</event>
+
+	
+	</date>
+
+<date value="11/14/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>9969 W. Camelback Rd.</address>
+      		<city>Phoenix</city>
+      		<state>AZ</state>
+      		<zip>85037</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>413</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=413&store=413&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+
+	</event>
+	<event>
+
+	<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Phoenix International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.phoenixinternationalraceway.com</officialLink>  
+
+	</event>
+	
+	</date>
+
+
+<date value="11/15/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      		<venue>Phoenix International Raceway</venue>
+			<address></address>
+			<city></city>
+			<state>TX</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.phoenixinternationalraceway.com</officialLink>                
+		</event>
+
+	
+	</date>
+
+<date value="11/17/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>19400 SW 106th Ave.</address>
+      		<city>Miami</city>
+      		<state>FL</state>
+      		<zip>33157</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>207</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=207&store=207&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+<date value="11/18/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>13501 So. Dixie Hwy.</address>
+      		<city>Pinecrest</city>
+      		<state>FL</state>
+      		<zip>33156</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6306</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6306&store=6306&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="11/19/2009">
+			
+		<event>
+     		<eventName>Joey Appearance</eventName>
+     		<eventType>Joey Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>13895 SW 288th street</address>
+      		<city>Homestead</city>
+      		<state>FL</state>
+      		<zip>33033</zip>
+      		<time>5:00pm-7:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6873</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6873&store=6873&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	
+	</date>
+
+
+<date value="11/20/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>11905 SW 152nd Street</address>
+      		<city>Miami</city>
+      		<state>FL</state>
+      		<zip>33186</zip>
+      		<time>1:00pm-6:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6967</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6967&store=6967&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+	</event>
+	</date>
+
+
+<date value="11/20/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Camping World Series</eventType>
+      				<venue>Homestead-Miami Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.homesteadmiamispeedway.com</officialLink>               
+		</event>
+
+	
+	</date>
+
+
+<date value="11/21/2009">
+			
+		<event>
+     		<eventName>Showcar Appearance</eventName>
+     		<eventType>Showcar Appearance</eventType>
+      		<venue>The Home Depot</venue>
+      		<address>3301 So. Dixie Hwy.</address>
+      		<city>Florida City</city>
+      		<state>FL</state>
+      		<zip>33024</zip>
+      		<time>10:00am-3:00pm</time>
+      		<tvStation></tvStation>
+      		<startTime></startTime>
+      		<broadcastTime></broadcastTime>
+      		<registrationTime></registrationTime>
+      		<storeNumber>6355</storeNumber>
+      		<directionLink>http://www.homedepot.com/webapp/wcs/stores/servlet/StoreFinderDirectionsView?storeId=10051&catalogId=10053&city=&state_1=&zip=&storeNum=6355&store=6355&distance_1=50&distance_2=50</directionLink>      
+			<officialLink></officialLink> 
+</event>
+
+
+	<event>
+			<eventName></eventName>
+			<eventType>Nationwide Series</eventType>
+			<venue>Homestead-Miami Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.homesteadmiamispeedway.com</officialLink> 
+	</event>  
+
+	
+
+	
+	</date>
+
+
+<date value="11/22/2009">
+			
+
+			<event>
+			<eventName></eventName>
+      		<eventType>Sprint Cup</eventType>
+      				<venue>Homestead-Miami Speedway</venue>
+			<address></address>
+			<city></city>
+			<state>FL</state>
+			<zip></zip>
+			<time></time>
+			<tvStation></tvStation>
+			<startTime></startTime>
+			<broadcastTime></broadcastTime>
+			<registrationTime></registrationTime>
+			<storeNumber></storeNumber>
+			<directionLink></directionLink>
+			<officialLink>www.homesteadmiamispeedway.com</officialLink>               
+		</event>
+
+	
+	</date>
+
+
+	
+
+		
+		
+		
+</eventCalendar>

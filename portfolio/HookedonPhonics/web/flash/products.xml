@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- NOTE: all sections must have 3 products -->
+<products>
+	<!-- 0-2 years products -->
+	<product discount="20Percent" sku="1028" oldPrice="$99.95" newPrice="$79.96">
+		<txtDescription><![CDATA[Discover Reading Baby Edition]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=1028&ProductID=203]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58156&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image1.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="1029" oldPrice="$99.95" newPrice="$79.96">
+		<txtDescription><![CDATA[Discover Reading Toddler Edition]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=1029&ProductID=205]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58158&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image2.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="9282" oldPrice="$49.95" newPrice="$39.96">
+		<txtDescription><![CDATA[Hooked on Baby Learn to Sign]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=9282&ProductID=266]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58217&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image3.jpg]]></image>
+	</product>
+	<!-- 3-4 years products -->
+	<product discount="20Percent" sku="1025" oldPrice="$99.95" newPrice="$79.96">
+		<txtDescription><![CDATA[Learn to Read Pre-K]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=1025&ProductID=207]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58160&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image4.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="9122" oldPrice="$24.95" newPrice="$19.96">
+		<txtDescription><![CDATA[Hooked on Math Learn to Count]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=9122&ProductID=163]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58116&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image5.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="8050" oldPrice="$12.95" newPrice="$10.36">
+		<txtDescription><![CDATA[Hooked on Pre-K Super Workbook]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=8050&ProductID=110]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58064&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image6.jpg]]></image>
+	</product>
+	<!-- 4-6 years products -->
+	<product discount="20Percent" sku="1002" oldPrice="$199.95" newPrice="$159.96">
+		<txtDescription><![CDATA[Learn to Read K-2]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/Learn-to-Read-Kindergarten-2nd-grade?SEARCH=1002]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=57983&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image7.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="9089" oldPrice="$64.95" newPrice="$51.96">
+		<txtDescription><![CDATA[Hooked on Spelling]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=9089&ProductID=170]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58123&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image8.jpg]]></image>
+	</product>
+	<product discount="60Percent" sku="9001" oldPrice="$249.99" newPrice="$99.99">
+		<txtDescription><![CDATA[Hooked on Spanish]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=9001&ProductID=127]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58080&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image9.jpg]]></image>
+	</product>
+	<!-- 7+ years products -->
+	<product discount="20Percent" sku="1036" oldPrice="$199.95" newPrice="$159.96">
+		<txtDescription><![CDATA[Master Reader]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/master-reader-deluxe-edition?SEARCH=1036]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=57984&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image10.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="9072" oldPrice="$199.95" newPrice="$159.96">
+		<txtDescription><![CDATA[Hooked on Math]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/hooked-on-math-program?SEARCH=9072]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=57996&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image11.jpg]]></image>
+	</product>
+	<product discount="20Percent" sku="8022" oldPrice="$12.95" newPrice="$10.36">
+		<txtDescription><![CDATA[Hooked on 2nd Grade Super Workbook]]></txtDescription>
+		<infoLink><![CDATA[http://www.hookedonphonics.com/ProductDetail.aspx?Search=8022&ProductID=197]]></infoLink>
+		<buyNow><![CDATA[http://hop.prod.bridgelinesw.net/Shopping/ShoppingCart.aspx?ProductSkuID=58150&Quantity=1]]></buyNow>
+		<image><![CDATA[images/flash/image12.jpg]]></image>
+	</product>
+</products>

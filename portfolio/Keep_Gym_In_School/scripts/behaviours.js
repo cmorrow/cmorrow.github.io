@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".error").hide(),$("#SubmitButton").click(function(){ValidateForm()}),$("#ResetButton").click(function(){ResetForm()}),$(".nominationFormField").blur(function(){ValidateField(this)}),$("#whySchoolNeedsGrantEssay").keyup(function(){SetCount(this)}),$("#howGrantIsUsedEssay").keyup(function(){SetCount(this)})});

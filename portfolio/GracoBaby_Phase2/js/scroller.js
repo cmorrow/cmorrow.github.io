@@ -1,0 +1,1 @@
+function scrollerClick(){for(scrollerBlocks=$("scrollbar_content").select("a"),a=0;a<scrollerBlocks.length;a++)scrollerBlocks[a].onclick=function(){for(i=0;i<scrollerBlocks.length;i++)scrollerBlocks[i].className="";this.addClassName("selected")}}

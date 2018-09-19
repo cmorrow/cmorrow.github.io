@@ -1,0 +1,1 @@
+jQuery.timer=function(t,i){var t=t||100;return i?new(_timer=function(t,i){this.stop=function(){clearInterval(n.id)},this.internalCallback=function(){i(n)},this.reset=function(t){n.id&&clearInterval(n.id);var t=t||100;this.id=setInterval(this.internalCallback,t)},this.interval=t,this.id=setInterval(this.internalCallback,this.interval);var n=this})(t,i):!1};

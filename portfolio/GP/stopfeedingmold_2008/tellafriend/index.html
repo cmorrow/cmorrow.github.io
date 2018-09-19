@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <link rel=stylesheet href="css/styles.css"/> <script src="js/swfobject.js"></script> <link href="favicon.ico" rel="SHORTCUT ICON"/> <link rel="shortcut icon" href="favicon.ico" type="image/ico"/><link rel=icon href="favicon.ico" type="image/ico"/><link rel=icon href="favicon.png" type="image/png"/><link rel="shortcut icon" href="favicon.png" type="image/png"/> <script>
+	var win = null;
+
+	function NewWindow(mypage,myname,w,h,scroll){
+	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+	TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+	settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no';
+	win = window.open(mypage,myname,settings)
+	}
+	</script> <meta name=keywords content="Stop Feeding Mold, DensArmor Plus mold- and moisture-resistant paperless drywall, paperless wallboard, paperless gypsum board, mold-resistant wallboard, mold-resistant drywall, moisture-resistant drywall, glass-mat facings, fiberglass mats, drywall that resists mold, wallboard that resists mold, innovative drywall manufactured by Georgia-Pacific Gypsum."/> <meta name=description content="Most of the walls inside your home are made of paper-faced drywall. Mold eats paper. If you eliminate the paper you reduce the chances for mold. DensArmor Plus paperless drywall is here."/> <link href="favicon.ico" rel="SHORTCUT ICON"/> <link rel="shortcut icon" href="favicon.ico" type="image/ico"/><link rel=icon href="favicon.ico" type="image/ico"/><link rel=icon href="favicon.png" type="image/png"/><link rel="shortcut icon" href="favicon.png" type="image/png"/> <title>Tell A Friend</title> </head> <body> <div id=popLayer class=box1> <div id=popContent> <h1 class=popHeader>Send to a Friend</h1><span class=popClose><a href="javascript:close()">Close Form</a></span> <br class=clearRight /> <form id=form1 method=post action=""> <div id=friendBox> <div><span id=invalidemailto class=errorlabel></span></div> <label for=emailto>Friend's E-mail Address:</label><input id=emailto name=emailto /> <br/> <div id=invalidfirstname class=errorlabel></div> <label for=firstname>First Name:</label><input id=firstname name=firstname /> <div id=invalidsurname class=errorlabel></div> <label for=surname>Last Name:</label><input id=surname name=surname /> <div id=invalidfromemail class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=fromemail name=fromemail /> <br/> <img src="images/send_btn.gif" onclick="submitForm();" alt="" style="cursor: hand;"/> </div> <div id=friendConfirmation style="display: none;width:441px;padding: 10px;border:solid 1px #666;background:#fcfcfc;"> <p>Your e-mail has been sent. Thanks for sharing stopfeedingmold.com with a friend.</p> </div> <br/> <input type=hidden id=frmaction name=frmaction value=add /> </form> <script>	
+	document.getElementById("invalidfirstname").innerHTML = "";
+	document.getElementById("invalidsurname").innerHTML = "";
+	document.getElementById("invalidfromemail").innerHTML = "";
+	document.getElementById("invalidemailto").innerHTML = "";
+	
+	
+	function submitForm()
+	{
+		document.getElementById("invalidfirstname").innerHTML = "";
+		document.getElementById("invalidsurname").innerHTML = "";
+		document.getElementById("invalidfromemail").innerHTML = "";
+		document.getElementById("invalidemailto").innerHTML = "";
+		
+		var isvalid = true;	
+		
+		if(document.getElementById("firstname").value == "")
+	{
+			document.getElementById("invalidfirstname").innerHTML = "Please Enter Your First Name";
+			isvalid = false;
+	}	
+	if(document.getElementById("surname").value == "")
+	{
+			document.getElementById("invalidsurname").innerHTML = "Please Enter Your Last Name";
+			isvalid = false;
+	}
+	if(!isValidEmail(document.getElementById("fromemail").value) )
+	{
+		document.getElementById("invalidfromemail").innerHTML = "Please Enter Your E-mail";
+		isvalid = false;	
+	}
+//		if(document.getElementById("emaillist").value == "")
+//	{
+//			document.getElementById("invalidemailto").innerHTML = "Please Enter Valid E-mail Address";
+//			isvalid = false;
+//	}
+		if(isvalid) 
+		{
+		document.getElementById("form1").submit();
+		    //window.location = "friendThanks.html";
+		}
+	return false;	
+}
+
+function isValidEmail(str) {
+   return (str.indexOf(".") > 2) && (str.indexOf("@") > 0);
+   alert("email not valid");
+}
+function addemail()
+{
+	//perform validation first
+	if(isValidEmail(document.getElementById("emailto").value))
+	{
+	document.getElementById("emaillist").innerHTML = document.getElementById("emaillist").innerHTML + ' ' + document.getElementById("emailto").value;
+	document.getElementById("thelist").value = document.getElementById("thelist").value + ' ' + document.getElementById("emailto").value;
+	document.getElementById("invalidemailto").innerHTML = "";
+	}
+	else
+	{
+		document.getElementById("invalidemailto").innerHTML = "Please Enter Valid E-mail Address";
+	}
+	document.getElementById("emailto").value = '';
+	
+}
+	
+	
+</script> </div> </div> </body> </html>

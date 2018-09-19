@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <title>BuildPaperless - Technical Information</title> <meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1"/> <link href="css/styles.css" rel=stylesheet /> <script src="js/swfobject.js"></script> <script><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script> <script>
+var win = null;
+
+function NewWindow(mypage,myname,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no';
+win = window.open(mypage,myname,settings)
+}
+</script> <script>
+
+	// some variables to save
+	var currentPosition;
+	var currentVolume;
+	var currentItem;
+
+	// these functions are caught by the JavascriptView object of the player.
+	function sendEvent(typ,prm) { thisMovie("mpl").sendEvent(typ,prm); };
+	function sendEvent2(typ,prm) { thisMovie("mpl2").sendEvent(typ,prm); };
+	function sendEvent3(typ,prm) { thisMovie("mpl3").sendEvent(typ,prm); };
+//	function getUpdate(typ,pr1,pr2,pid) {
+//		if(typ == "time") { currentposition = pr1; }
+//		else if(typ == "volume") { currentvolume = pr1; }
+//		else if(typ == "item") { currentitem = pr1; settimeout("getitemdata(currentitem)",100); }
+//		var id = document.getelementbyid(typ);
+//		id.innerhtml = typ+ ": "+math.round(pr1);
+//		pr2 == undefined ? null: id.innerhtml += ", "+math.round(pr2);
+//		if(pid != "null") {
+//			document.getelementbyid("video2").innerhtml = "(received from the player with id <i>"+pid+"</i>)";
+//		}
+//	};
+
+	// These functions are caught by the feeder object of the player.
+	function loadFile(obj) { thisMovie("mpl").loadFile(obj); };
+	function addItem(obj,idx) { thisMovie("mpl").addItem(obj,idx); }
+	function removeItem(idx) { thisMovie("mpl").removeItem(idx); }
+	function getItemData(idx) {
+		var obj = thisMovie("mpl").itemData(idx);
+		var nodes = "";
+		for(var i in obj) { 
+			nodes += "<li>"+i+": "+obj[i]+"</li>"; 
+		}
+		document.getElementById("data").innerHTML = nodes;
+	};
+
+	// This is a javascript handler for the player and is always needed.
+	function thisMovie(movieName) {
+	    if(navigator.appName.indexOf("Microsoft") != -1) {
+			return window[movieName];
+		} else {
+			return document[movieName];
+		}
+	};
+	
+	function replay(movie) {
+	    if (movie == "mpl") {
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent('stop');
+	    sendEvent('playpause');
+	    } else if (movie == "mpl2"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    // Stop then start video
+	    sendEvent2('stop');
+	    sendEvent2('playpause');
+	    } else if (movie == "mpl3"){
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    // Stop then start video
+	    sendEvent3('stop');
+	    sendEvent3('playpause');
+	    }
+	};
+	
+	// for Flash
+	function pauseVideo(video) {
+	    if (video == "mpl") {
+	    sendEvent('playpause');
+	    // Stop other videos
+	    sendEvent2('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl2"){
+	    sendEvent2('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent3('stop');
+	    } else if (video == "mpl3"){
+	    sendEvent3('playpause');
+	    // Stop other videos
+	    sendEvent('stop');
+	    sendEvent2('stop');
+	    }
+	};
+
+</script> <script>
+<!--
+function HideContent(popLayer) {
+document.getElementById(popLayer).style.display = "none";
+}
+function ShowContent(popLayer) {
+document.getElementById(popLayer).style.display = "block";
+}
+function ReverseDisplay(popLayer) {
+if(document.getElementById(popLayer).style.display == "none") { 
+document.getElementById(popLayer).style.display = "block"; }
+else { document.getElementById(popLayer).style.display = "none";
+}
+}
+//--></script> <script>
+<!--
+function isValidEmail(str) {
+   return (str.indexOf(".") > 2) && (str.indexOf("@") > 0);
+}
+//--></script> <style>
+#nav li.nav1 a {color: #005288;background: #ffcf06;}
+#nav .nav1 li a {color: #fff;background: #005288;}
+#nav .nav1 a:hover, #nav .nav1 a.over, #nav .nav1 a.sfhover {color: #005288;background: #ffcf06;}
+</style> </head> <body> <div id=wrapper> <div id=header><a class=floatLeft href="index.html"><img src="images/paperlessLogo.gif" alt="Build Paperless"/></a><a class=floatRight href="/build/productgroup.aspx?pid=1064&amp;bpl" target=_blank><img src="images/logoGypsum.gif" alt="Georgia-Pacific Gypsum"/></a><div class=clearBoth2></div></div> <ul id=nav> <li class=nav1><a class=leftBorder href="about-paperless.html">About GP Paperless</a> <ul class=nav1Drop><li><a href="moisture-and-mold.html">Moisture &amp; Mold</a></li><li><a href="system.html">Paperless Fiberglass Mats In A System</a></li><li><a href="technical-information.html">Technical Information</a></li><li><a href="faqs.html">FAQs</a></li></ul> </li> <li class=nav2><a href="design-moisture-forgiveness.html">Design Moisture Forgiveness</a> <ul class=nav2Drop><li><a href="sustainability.html">Sustainability</a></li><li><a href="indoor-air-quality.html">Indoor Air Quality</a></li></ul></li> <li class=nav3><a href="save-time-reduce-risks.html">Save Time Reduce Risks</a></li> <li class=nav4><a href="paperless-on-the-job.html">Paperless On The Job</a></li> <li class=nav5><a href="education.html">Education</a></li> <li class=nav6><a href="subscribe.aspx">Subscribe</a></li></ul> <div id=contentWrapper> <div id=content class=techSpecs> <h1>Technical Information</h1> <p>Looking for specifics? We have product information and literature available for download. Or, we have additional resources including specifications and submittals available <a href="../literature.aspx?bpl" target=_blank>here</a>. </p> <div class=barHeader><h2>BROCHURES</h2></div> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=5344&bpl">Product Selection Guide and Architectural Assemblies Technical Guide (PDF: 964KB/24pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=5292&bpl">Georgia-Pacific Gypsum Environmental Responsibility Brochure (PDF: 211KB/4pgs)</a></li> </ul> <h3>Area Separation Walls:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4286&bpl">DensGlass Ultra<span class=sup>&#174;</span> Shaftliner Area Separation Walls Technical Guide (PDF: 1.8MB/12pgs)</a></li> </ul> <h3>DensArmor Plus<span class=sup>&#174;</span> Paperless Interior Drywall:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4816&bpl">DensArmor Plus Interior Drywall Technical Guide (PDF: 1.2MB/8pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=7492&bpl">DensArmor Plus Interior Drywall Earns GREENGUARD Certification for Low-emitting Products (PDF: 97KB/1pg)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=6496&bpl">DensArmor Plus Interior Drywall Submittal (PDF: 85KB/2pgs)</a></li></ul> <h3>DensArmor Plus<span class=sup>&#174;</span> Abuse Guard<span class=sup>&#174;</span>Paperless Interior Drywall:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=7618&bpl">DensArmor Plus Abuse Guard Drywall Product Quick Guide (PDF: 342KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=7635&bpl">DensArmor Plus Abuse Guard Interior Drywall Submittal (PDF: 50KB/2pgs)</a></li> </ul> <h3>DensDeck<span class=sup>&#174;</span> Roof Boards:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4075&bpl">DensDeck Roof Boards Technical Guide (1MB/16pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=3075&bpl">DensDeck Roof Board Submittal (72KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=3084&bpl">DensDeck Prime<span class=sup>&#174;</span> Roof Board Submittal (78KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4567&bpl">DensDeck DuraGuard<span class=sup>&#174;</span> Roof Board Submittal (PDF: 85KB/2pgs)</a></li> </ul> <h3>DensGlass Gold<span class=sup>&#174;</span> Exterior Gypsum Sheathing:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4922&bpl">DensGlass Gold Exterior Sheathing Technical Guide (PDF: 1.3MB/12pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=3092">DensGlass Gold Exterior Sheathing Submittal (PDF: 78KB/2pgs)</a></li> </ul> <h3>DensGlass Ultra<span class=sup>&#174;</span> Shaftliner:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4111&bpl">DensGlass Ultra Shaftwall/Stairwell Systems Brochure (PDF: 2.6MB/12pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=3098&bpl">DensGlass Ultra Shaftliner Submittal (PDF: 70KB/2pgs)</a></li> </ul> <h3>DensShield<span class=sup>&#174;</span> Tile Backer:</h3> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4284&bpl">DensShield Tile Backer Technical Guide (PDF: 1.3MB/12pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=3113&bpl">DensShield Tile Backer Submittal (PDF: 102KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=7639&bpl">Product Bulletin: DensShield Tile Backer - Tile Backer Board for Wet and Dry Areas with a 5/8&quot; Type X Fire Rating (PDF: (2.1MB/4pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=7589&bpl">Product Bulletin: International Building Codes have Changed for Tile Backer Boards to Improve Construction Practices (PDF: 230KB/2pgs)</a></li> </ul> <div class=barHeader><h2>WARRANTIES</h2></div> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=7049&bpl">DensShield<span class=sup>&#174;</span> Tile Backer 20-Year Limited Warranty on Commercial Applications (PDF: 459KB/1pg)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4945&bpl">DensArmor Plus<span class=sup>&#174;</span> Interior Drywall Limited Warranty (PDF: 515KB/1pg)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4946&bpl">DensGlass Gold<span class=sup>&#174;</span> Exterior Sheathing Limited Warranty (PDF: 519KB/1pg)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=5862&bpl">DensGlass Ultra<span class=sup>&#174;</span> Shaftliner Limited Warranty (517KB/1pg)</a></li> </ul> <div class=barHeader><h2>MATERIALS SAFETY DATA SHEET (MSDS)</h2></div> <ul> <li><a href="../documentviewer.aspx?repository=BP&elementid=4499&bpl">MSDS #72: Glass-Mat Faced Gypsum Boards (PDF: 42KB/7pgs)</a></li></ul> <div class=barHeader><h2>SUSTAINABLE MATERIALS DATA SHEETS(SMDS)</h2></div> <ul><li><a href="../documentviewer.aspx?repository=BP&elementid=4944&bpl" name=smds>DensArmor Plus<span class=sup>&#174;</span> Interior Gypsum Panels SMDS (PDF: 83KB/2pgs)</a></li> <li><a href="../DocumentViewer.aspx?repository=BP&amp;elementid=7778&amp;bpl ">DensArmor Plus<span class=sup>&#174;</span> Abuse Guard<span class=sup>&#174;</span> SMDS (PDF: 152KB/2pgs )</a> </li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4928&bpl">DensDeck<span class=sup>&#174;</span> Roof Board SMDS (PDF: 71KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4933&bpl">DensDeck Prime<span class=sup>&#174;</span> Roof Board SMDS (PDF: 71KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4932&bpl">DensDeck DuraGuard<span class=sup>&#174;</span> Roof Board SMDS (PDF: 70KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4934&bpl">DensGlass Gold<span class=sup>&#174;</span> Sheathing SMDS (PDF: 74KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4937&bpl">DensGlass Ultra<span class=sup>&#174;</span> Shaftliner SMDS (PDF: 73KB/2pgs)</a></li> <li><a href="../documentviewer.aspx?repository=BP&elementid=4936&bpl">DensShield<span class=sup>&#174;</span> Tile Backer SMDS (PDF: 69KB/2pgs)</a></li> </ul> </div> <div id=sidebar> <h3><a href="paperless-on-the-job.html">What are your peers saying?</a></h3> <img src="images/peers/bBostik.jpg" alt="Britin Bostik" title="Britin Bostik"/> <p class=quote> "Innovation is really what drives this industry and it's people like Georgia-Pacific who are making this kind of innovation possible for us to think beyond what we know."<br/> </p> <p class=peerName>Britin Bostik</p> <p class=peerCompany>Student, Texas A&M University</p> <p class=peerLink><a href="paperless-on-the-job.html">>> Hear More from Peers</a></p> <p><a href="subscribe.aspx"><img src="images/subscribeIconSmall.jpg" alt=Subscribe title=Subscribe /></a></p> </div> <div class=clearBoth></div> </div> <div id=footerTop></div> <div id=footer><h2><a href="javascript:try{hideDrops();}catch(e){}HideContent('popJoinNetwork');ReverseDisplay('popColleague');">Send to a colleague >></a>&nbsp;&nbsp;&nbsp;<a href="javascript:try{hideDrops();}catch(e){}HideContent('popColleague');ReverseDisplay('popJoinNetwork');">Subscribe >></a>&nbsp;&nbsp;&nbsp;<a href="request-information.aspx">Request Information >></a></h2> <div id=footerLeft> <p><a href="/build/productgroup.aspx?pid=1064&bpl" target=_blank>www.gpgypsum.com</a> <a href="/build/Dealerlocator.aspx?pid=4659&bpl" target=_blank>Where To Buy</a> 1-800-BUILD-GP</p> <div class=clearBoth2></div></div> <div id=footerRight><a href="/build/productgroup.aspx?pid=1064&bpl" target=_blank><img src="images/footerLogo.gif" alt="Georgia-Pacific Gypsum"/></a><p class=floatRight><a href="//www.gp.com/legal/" target=_blank>Terms of Use</a> <a href="//www.gp.com/privacy/" target=_blank>Online Privacy Notice</a><a href="//www.gp.com/privacy/california.asp" target=_blank>Your California Privacy Rights</a><a href="/build/pageviewer.aspx?repository=bp&amp;elementid=7899" target=_blank>Terms of Sale</a></p> </div> <br class=clearBoth /> </div> <div id=popColleague style="display:none;"> <div id=popContent> <h1 class=popHeader>Send to a Colleague</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}resetColleagueForm();HideContent('popColleague');">Close Form</a></span> <br class=clearBoth /> <form id=ColleagueForm method=get action="#"> <div id=friendBox> <div id=invalidemailto class=errorlabel></div> <label for=emailto>Colleague's E-mail Address:</label><input id=emailto name=emailto /> <div id=invalidfirstname class=errorlabel></div> <label for=firstname>First Name:</label><input id=firstname name=firstname /> <div id=invalidsurname class=errorlabel></div> <label for=surname>Last Name:</label><input id=surname name=surname /> <div id=invalidfromemail class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=fromemail name=fromemail /> <br/> <input type=button name=BtnSubmit value=Submit onclick="submitColleagueForm();" id=BtnSubmit style="cursor: hand;"/> </div> <div id=friendConfirmation style="display: none;clear: left; width:410px;padding: 10px;background:#fcfcfc;"> <h2 class=txtBlue>Your message has been sent. Thank you for referring a colleague to Build Paperless!</h2> </div> <br/> <input type=hidden id=frmaction name=frmaction value=add /> <input type=hidden id=url name=url value="#"/> </form> <script>	
+	document.getElementById("invalidfirstname").innerHTML = "";
+	document.getElementById("invalidsurname").innerHTML = "";
+	document.getElementById("invalidfromemail").innerHTML = "";
+	document.getElementById("invalidemailto").innerHTML = "";
+	
+	
+	function submitColleagueForm()
+	{
+		document.getElementById("invalidfirstname").innerHTML = "";
+		document.getElementById("invalidsurname").innerHTML = "";
+		document.getElementById("invalidfromemail").innerHTML = "";
+		document.getElementById("invalidemailto").innerHTML = "";
+		
+		var isvalid = true;	
+		
+		if(!isValidEmail(document.getElementById("emailto").value) )
+	    {
+		    document.getElementById("invalidemailto").innerHTML = "Please Enter Your Colleague's E-mail";
+		    document.getElementById("invalidemailto").style.display = "block"
+		    isvalid = false;	
+	    }
+		if(document.getElementById("firstname").value == "")
+	    {
+			    document.getElementById("invalidfirstname").innerHTML = "Please Enter Your First Name";
+			    document.getElementById("invalidfirstname").style.display = "block"
+			    isvalid = false;
+	    }	
+	    if(document.getElementById("surname").value == "")
+	    {
+			    document.getElementById("invalidsurname").innerHTML = "Please Enter Your Last Name";
+			    document.getElementById("invalidsurname").style.display = "block"
+			    isvalid = false;
+	    }
+	    if(!isValidEmail(document.getElementById("fromemail").value) )
+	    {
+		    document.getElementById("invalidfromemail").innerHTML = "Please Enter Your E-mail";
+		    document.getElementById("invalidfromemail").style.display = "block"
+		    isvalid = false;	
+	    }
+	    if(isvalid) 
+	    {
+	        document.getElementById("ColleagueForm").method = "post";
+	        document.getElementById("ColleagueForm").action = "colleagueSubmission.aspx?URL=" + window.location.pathname;
+	        document.getElementById("ColleagueForm").submit();
+	    }
+	    return false;	
+    }
+
+    function resetColleagueForm()
+    {
+        document.getElementById("friendBox").style.display = "block";
+        document.getElementById("friendConfirmation").style.display = "none";
+        
+        document.getElementById("invalidfirstname").innerHTML = "";
+        document.getElementById("invalidfirstname").style.display = "none"
+	    document.getElementById("invalidsurname").innerHTML = "";
+	    document.getElementById("invalidsurname").style.display = "none"
+	    document.getElementById("invalidfromemail").innerHTML = "";
+	    document.getElementById("invalidfromemail").style.display = "none"
+	    document.getElementById("invalidemailto").innerHTML = "";
+	    document.getElementById("invalidemailto").style.display = "none"
+    }
+</script> </div> </div> <div id=popJoinNetwork style="display:none"> <div id=popContent> <h1 class=popHeader>Subscribe</h1><span class=popClose><a href="javascript:try{showDrops();}catch(e){}HideContent('popJoinNetwork');">Close Form</a></span> <br class=clearRight /> <form id=JoinNetworkForm method=get action="#"> <div id=friendBox> <div id=invalidfromemailJN class=errorlabel></div> <label for=fromemail>Your E-mail Address:</label><input id=subscribefromemail name=subscribefromemail /> <br class=clearLeft /> <input type=button name=BtnSubmitJN value=Submit onclick="submitJoinNetworkForm();" id=BtnSubmitJN style="cursor: hand;"/> <br class=clearLeft /><br/> <p class=smallTxt>By entering your e-mail address and clicking submit, you consent to receive a subscription by e-mail from Georgia-Pacific. Links to our privacy notice, including opt-out and Safe Harbor provisions, can be found at the bottom of each page.</p> </div> <br/> <input type=hidden id=subscribefrom name=subscribefrom value=JN /> </form> <script>	
+	document.getElementById("invalidfromemailJN").innerHTML = "";
+	
+	
+	function submitJoinNetworkForm()
+	{
+	    document.getElementById("invalidfromemailJN").innerHTML = "";
+		
+		var isvalid = true;	
+				
+	    if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    document.getElementById("invalidfromemailJN").innerHTML = "Please Enter Your E-mail";
+		    isvalid = false;	
+	    }
+		if(isvalid) 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;	
+    }
+    
+    function submitSubscribeForm()
+    {
+        document.getElementById("subscribefrom").value = "SUBSCRIBE";
+        document.getElementById("subscribefromemail").value = document.getElementById("email").value;
+        
+        if(!isValidEmail(document.getElementById("subscribefromemail").value) )
+	    {
+		    alert("Please Enter Your E-mail");
+		    isvalid = false;	
+	    }
+		else 
+		{
+		    document.getElementById("JoinNetworkForm").method = "post";
+		    document.getElementById("JoinNetworkForm").action = "subscribe.aspx?URL=" + window.location.pathname;
+		    document.getElementById("JoinNetworkForm").submit();
+		}
+	    return false;
+    }
+    
+</script> </div> </div> </div> </body> </html>

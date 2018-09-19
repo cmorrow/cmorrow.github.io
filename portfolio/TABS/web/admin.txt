@@ -1,0 +1,15 @@
+/* === admin styles ==== */
+#container.admin #main .left { background:white; }
+#container.admin #main .bt { background: url('../images/btNoDiv.gif') no-repeat; }
+#container.admin #main .bb { background: url('../images/bbNoDiv.gif') no-repeat; }
+
+#container.admin #main .two-one .bl 
+{
+    width:860px;
+    padding:0 0 0 18px;
+}
+#container.admin #main .right { display:none; }
+
+
+/// html change
+<div id="container" class="admin">

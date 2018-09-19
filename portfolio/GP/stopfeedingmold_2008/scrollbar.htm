@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv=Content-Type content="text/html; charset=iso-8859-1"/> <title>jsScrolling: Example 3</title> <style>
+
+#contentLeft {
+position: absolute;
+	width: 400px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.Scroller-Container {
+	position: absolute;
+	top: 0; 
+	left: 0px;
+}
+
+#Example-3-Scrollbar {
+	position: absolute;
+	left: 410px;
+}
+
+.Scrollbar-Up,
+ .Scrollbar-Up-Pressed {
+	position: absolute;
+	width: 10px; 
+	height: 10px;
+	background-color: #CCC;
+	font-size: 0px;
+}
+
+.Scrollbar-Down,
+ .Scrollbar-Down-Pressed {
+	position: absolute;
+	top: 190px;
+	width: 10px; height: 10px;
+	background-color: #CCC;
+	font-size: 0px;
+}
+
+.Scrollbar-Track,
+ .Scrollbar-Track-Pressed {
+	width: 10px; 
+	height: 160px;
+	position: absolute;
+	top: 20px;
+	background-color: #EEE;
+}
+
+.Scrollbar-Track-Pressed {
+	background-color: #DDD;
+}
+
+.Scrollbar-Handle,
+ .Scrollbar-Handle-Pressed {
+	position: absolute;
+	width: 10px; height: 30px;
+	background-color: #CCC;
+}
+
+.Scrollbar-Handle-Pressed, 
+ .Scrollbar-Down-Pressed, .Scrollbar-Up-Pressed {
+	background-color: #AAA;
+}
+
+.Scrollbar-Disabled {
+	display: none;
+}
+</style> <script src="js/scrollbar/Scrolling.Scroller.js"></script> <script src="js/scrollbar/Scrolling.Scrollbar.js"></script> <script src="js/scrollbar/Scrolling.ScrollTween.js"></script> <script>
+var scrollbar;
+
+function scrollbarPressed (o, c, e) {
+	o.className += "-Pressed";
+};
+
+function scrollbarReleased (o, c, e) {
+	o.className = o.className.replace("-Pressed", "");
+};
+
+window.onload = function () {
+	var content = document.getElementById("contentLeft");
+	var scrollb = document.getElementById("Example-3-Scrollbar");
+
+	scrollbar = new Scrolling.Scrollbar (
+		scrollb,
+		new Scrolling.Scroller (content, 400, 180),
+		new Scrolling.ScrollTween()
+	);
+	
+	scrollbar.onMouseDown = scrollbarPressed;
+	scrollbar.onMouseUp   = scrollbarReleased;
+};
+</script> </head> <body> <div id=Example-3> <div id=contentLeft> <div class=Scroller-Container> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis, ante et congue feugiat, elit wisi commodo metus, ut commodo ligula enim ac justo. Pellentesque id ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus vitae mi a elit dictum volutpat. Pellentesque nec arcu. Etiam blandit. Phasellus egestas dolor ut lacus. Sed enim justo, sagittis ut, condimentum non, ullamcorper eu, neque. In hac habitasse platea dictumst. Integer ipsum risus, sagittis ac, imperdiet ac, interdum sed, libero. Praesent commodo. Mauris congue, urna eget hendrerit elementum, dolor ligula ultrices neque, in elementum ante erat et elit.</p> <p>Vivamus vehicula. Integer cursus massa et nisl. Morbi pretium sem eget risus. Vestibulum nec est. Donec feugiat purus et ligula. Quisque semper. Sed eu ante. Curabitur suscipit porttitor libero. Nam eros leo, sollicitudin eget, tincidunt vitae, facilisis a, dui. Proin neque. Aliquam erat volutpat. Pellentesque felis.</p> <p>Aliquam consequat. Proin feugiat ultricies dui. Suspendisse mollis dui nec nunc. Nam tristique, ante vitae imperdiet vestibulum, elit nulla rhoncus nisl, vitae tincidunt dolor dui eu mi. In hac habitasse platea dictumst. Nunc blandit dolor vel mauris. Proin wisi. Nam pharetra ultrices tellus. Sed arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam ultricies semper wisi. Sed nisl. Donec blandit. Nunc vitae urna sed nisl mattis ornare.</p> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis, ante et congue feugiat, elit wisi commodo metus, ut commodo ligula enim ac justo. Pellentesque id ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus vitae mi a elit dictum volutpat. Pellentesque nec arcu. Etiam blandit. Phasellus egestas dolor ut lacus. Sed enim justo, sagittis ut, condimentum non, ullamcorper eu, neque. In hac habitasse platea dictumst. Integer ipsum risus, sagittis ac, imperdiet ac, interdum sed, libero. Praesent commodo. Mauris congue, urna eget hendrerit elementum, dolor ligula ultrices neque, in elementum ante erat et elit.</p> <p>Vivamus vehicula. Integer cursus massa et nisl. Morbi pretium sem eget risus. Vestibulum nec est. Donec feugiat purus et ligula. Quisque semper. Sed eu ante. Curabitur suscipit porttitor libero. Nam eros leo, sollicitudin eget, tincidunt vitae, facilisis a, dui. Proin neque. Aliquam erat volutpat. Pellentesque felis.</p> <p>Aliquam consequat. Proin feugiat ultricies dui. Suspendisse mollis dui nec nunc. Nam tristique, ante vitae imperdiet vestibulum, elit nulla rhoncus nisl, vitae tincidunt dolor dui eu mi. In hac habitasse platea dictumst. Nunc blandit dolor vel mauris. Proin wisi. Nam pharetra ultrices tellus. Sed arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam ultricies semper wisi. Sed nisl. Donec blandit. Nunc vitae urna sed nisl mattis ornare.</p> </div> </div> <div id=Example-3-Scrollbar> <div class=Scrollbar-Up></div> <div class=Scrollbar-Down></div> <div class=Scrollbar-Track> <div class=Scrollbar-Handle></div> </div> </div> </div> <div id=commands> <a href="javascript:scrollbar.disable()">disable</a> <a href="javascript:scrollbar.enable()">enable</a> </div> </body> </html>

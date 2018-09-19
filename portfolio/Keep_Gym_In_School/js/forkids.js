@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=/MSIE ((5\.5)|6)/.test(navigator.userAgent)&&"Win32"==navigator.platform;e?$("a.lightbox").fancybox({zoomSpeedIn:250,zoomSpeedOut:600,overlayShow:!0,frameWidth:600,frameHeight:520}):$("a.lightbox").fancybox({zoomSpeedIn:250,zoomSpeedOut:600,overlayShow:!0,frameWidth:600,frameHeight:520})});

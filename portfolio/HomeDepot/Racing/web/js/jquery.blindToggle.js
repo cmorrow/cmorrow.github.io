@@ -1,0 +1,1 @@
+jQuery.fn.blindToggle=function(s,t,i){var n=this.height()+parseInt(this.css("paddingTop"))+parseInt(this.css("paddingBottom"));return this.animate({marginTop:parseInt(this.css("marginTop"))<0?0:-n},s,t,i)};

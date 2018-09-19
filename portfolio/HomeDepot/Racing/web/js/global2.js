@@ -1,0 +1,1 @@
+$(document).ready(function(){function n(){return Math.round(Math.random())-.5}function t(){setTimeout(o,5e3)}function o(){d+=1,d==a.length&&(d=0),$("#ads div").hide(),$(a[d]).show(),t()}var a=["#ad1","#ad2"];a.sort(n);var d=0;$(a[d]).show(),t()});

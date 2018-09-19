@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<playlist>
+	<videos>
+		<video><![CDATA[../flv/Gym_NewOrleans.flv]]></video>
+	</videos>
+	<!-- only 3 photos may be used; no more no less -->
+	<driverPhotos>
+		<photo><![CDATA[images/home/joeyFlash1.png]]></photo>
+		<photo><![CDATA[images/home/joeyFlash2.png]]></photo>
+		<photo><![CDATA[images/home/joeyFlash3.png]]></photo>
+	</driverPhotos>
+	<!-- background photos; unlimited number of photos may be used -->
+	<photos>
+		<photo><![CDATA[images/home/HDR_homeFlash_1.jpg]]></photo>
+		<photo><![CDATA[images/home/HDR_homeFlash_2.jpg]]></photo>
+		<photo><![CDATA[images/home/HDR_homeFlash_3.jpg]]></photo>
+		<photo><![CDATA[images/home/HDR_homeFlash_4.jpg]]></photo>
+		<photo><![CDATA[images/home/HDR_homeFlash_5.jpg]]></photo>
+		<!-- <photo><![CDATA[images/home/_0005_6.jpg]]></photo> -->
+	</photos>
+	<whatsNew>
+		<whatsNewItem>
+			<title><![CDATA[News Story:]]></title>
+			<body><![CDATA[Shelby 427 at Las Vegas Motor Speedway<br>Joey Logano continues his rookie season at another track the 18-year-old has yet to compete on, Las Vegas Motor Speedway (LVMS). Logano didn't turn 18 until May of 2008, after NASCAR visited the Nevada track.<br><a href="press-releases/news-story_022509.aspx">More >></a>]]></body>
+		</whatsNewItem>
+		<whatsNewItem>
+			<title><![CDATA[Photos and Videos:]]></title>
+			<body><![CDATA[Check out the latest shots from the Auto Club 500.<br><a href="photos-and-videos.aspx">More >></a>]]></body>
+		</whatsNewItem>
+		<whatsNewItem>
+			<title><![CDATA[Photos and Videos:]]></title>
+			<body><![CDATA[Listen to Joey Logano's interview from Project 9-6-1's "The Giant Show."<br><a href="photos-and-videos.aspx">More >></a>]]></body>
+		</whatsNewItem>
+		<whatsNewItem>
+			<title><![CDATA[News Story:]]></title>
+			<body><![CDATA[Logano Finishes 26th in The Home Depot Toyota in California<br>Joey Logano finished 26th in his first NASCAR Sprint Cup Series race at Auto Club Speedway in Fontana, Calif. It was a career-best finish for the 18-year-old rookie under the guidance of crew chief Greg Zipadelli and The Home Depot Team.<br><a href="press-releases/news-story_022209.aspx">More >></a>]]></body>
+		</whatsNewItem>
+	</whatsNew>
+	<!-- title attribute is used for feed title -->
+	<schedule title="Race Schedule:">
+		<race>
+			<raceTitle><![CDATA[Shelby 427]]></raceTitle> 
+			<date><![CDATA[03/01/09]]></date> 
+			<link><![CDATA[<a href="http://www.lvms.com/" target="_blank">Las Vegas Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Atlanta 500]]></raceTitle> 
+			<date><![CDATA[03/08/09]]></date> 
+			<link><![CDATA[<a href="http://www.atlantamotorspeedway.com" target="_blank">Atlanta Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Food City 500]]></raceTitle>
+			<date><![CDATA[03/22/09]]></date> 
+			<link><![CDATA[<a href="http://www.bristolmotorspeedway.com/" target="_blank">Bristol Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Goody's Fast Relief 500]]></raceTitle> 
+			<date><![CDATA[03/29/09]]></date> 
+			<link><![CDATA[<a href="http://www.martinsvillespeedway.com/" target="_blank">Martinsville Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Samsung 500]]></raceTitle> 	
+			<date><![CDATA[04/05/09]]></date> 
+			<link><![CDATA[<a href="http://www.texasmotorspeedway.com/" target="_blank">Texas Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Subway Fresh Fit 500]]></raceTitle> 
+			<date><![CDATA[04/18/09]]></date> 
+			<link><![CDATA[<a href="http://www.phoenixinternationalraceway.com/" target="_blank">Phoenix International Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Aaron's 499]]></raceTitle> 	
+			<date><![CDATA[04/26/09]]></date> 
+			<link><![CDATA[<a href="http://www.talladegasuperspeedway.com/" target="_blank">Talladega Superspeedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Crown Royal presents the Your Name Here 400]]></raceTitle> 	
+			<date><![CDATA[05/02/09]]></date> 
+			<link><![CDATA[<a href="http://www.rir.com/" target="_blank">Richmond International Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Southern 500]]></raceTitle>
+			<date><![CDATA[05/09/09]]></date> 
+			<link><![CDATA[<a href="http://darlingtonraceway.com/" target="_blank">Darlington Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Sprint All-Star Race]]></raceTitle>
+			<date><![CDATA[05/16/09]]></date> 	
+			<link><![CDATA[<a href="http://www.lowesmotorspeedway.com/" target="_blank">Charlotte Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Coca-Cola 600]]></raceTitle> 
+			<date><![CDATA[05/24/09]]></date>
+			<link><![CDATA[<a href="http://www.lowesmotorspeedway.com/" target="_blank">Charlotte Motor Speedway</a>]]></link>
+		</race>
+		<race> 	
+			<raceTitle><![CDATA[Dover 400]]></raceTitle>
+			<date><![CDATA[05/31/09]]></date>
+			<link><![CDATA[<a href="http://www.doverspeedway.com/" target="_blank">Dover International Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Pocono 500]]></raceTitle> 
+			<date><![CDATA[06/07/09]]></date> 	
+			<link><![CDATA[<a href="http://www.poconoraceway.com/" target="_blank">Pocono Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[LifeLock 400]]></raceTitle>
+			<date><![CDATA[06/14/09]]></date> 
+			<link><![CDATA[<a href="http://www.mispeedway.com/" target="_blank">Michigan International Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Toyota/SaveMart 350]]></raceTitle> 
+			<date><![CDATA[06/21/09]]></date> 
+			<link><![CDATA[<a href="http://www.infineonraceway.com/" target="_blank">Infineon Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Lenox Industrial Tools 301]]></raceTitle>
+			<date><![CDATA[06/28/09]]></date> 
+			<link><![CDATA[<a href="http://www.nhms.com/" target="_blank">New Hampshire Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Coke Zero 400]]></raceTitle> 
+			<date><![CDATA[07/04/09]]></date> 
+			<link><![CDATA[<a href="http://www.daytonainternationalspeedway.com/" target="_blank">Daytona International Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[LifeLock.com 400]]></raceTitle> 
+			<date><![CDATA[07/11/09]]></date> 
+			<link><![CDATA[<a href="http://www.chicagolandspeedway.com/" target="_blank">Chicagoland Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Allstate 400 at the Brickyard]]></raceTitle> 
+			<date><![CDATA[07/26/09]]></date> 
+			<link><![CDATA[<a href="http://www.indianapolismotorspeedway.com/" target="_blank">Indianapolis Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Pennsylvania 500]]></raceTitle> 
+			<date><![CDATA[08/02/09]]></date> 	
+			<link><![CDATA[<a href="http://www.poconoraceway.com/" target="_blank">Pocono Raceway</a>]]></link>
+		</race>
+		<race> 	
+			<raceTitle><![CDATA[TBA]]></raceTitle> 	
+			<date><![CDATA[08/09/09]]></date>
+			<link><![CDATA[<a href="http://www.theglen.com/" target="_blank">Watkins Glen International</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[TBA]]></raceTitle> 	
+			<date><![CDATA[08/16/09]]></date> 
+			<link><![CDATA[<a href="http://www.mispeedway.com/" target="_blank">Michigan International Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Sharpie 500 ]]></raceTitle>	
+			<date><![CDATA[08/22/09]]></date>
+			<link><![CDATA[<a href="http://www.bristolmotorspeedway.com/" target="_blank">Bristol Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Pep Boys Auto 500]]></raceTitle> 
+			<date><![CDATA[09/06/09]]></date>
+			<link><![CDATA[<a href="http://www.atlantamotorspeedway.com" target="_blank">Atlanta Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Chevy Rock & Roll 400]]></raceTitle> 
+			<date><![CDATA[09/12/09]]></date> 
+			<link><![CDATA[<a href="http://www.rir.com/" target="_blank">Richmond International Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Sylvania 300]]></raceTitle>
+			<date><![CDATA[09/20/09]]></date> 
+			<link><![CDATA[<a href="http://www.nhms.com/" target="_blank">New Hampshire Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Dover 400]]></raceTitle> 
+			<date><![CDATA[09/27/09]]></date>
+			<link><![CDATA[<a href="http://www.doverspeedway.com/" target="_blank">Dover International Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Kansas 400]]></raceTitle> 
+			<date><![CDATA[10/04/09]]></date> 
+			<link><![CDATA[<a href="http://www.kansasspeedway.com/" target="_blank">Kansas Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Pepsi 500]]></raceTitle> 
+			<date><![CDATA[10/11/09]]></date>
+			<link><![CDATA[<a href="http://www.autoclubspeedway.com/" target="_blank">Auto Club Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Bank of America 500]]></raceTitle> 
+			<date><![CDATA[10/17/09]]></date> 
+			<link><![CDATA[<a href="http://www.lowesmotorspeedway.com/" target="_blank">Charlotte Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[TBA]]></raceTitle>
+			<date><![CDATA[10/25/09]]></date> 
+			<link><![CDATA[<a href="http://www.martinsvillespeedway.com/" target="_blank">Martinsville Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Amp Energy 500]]></raceTitle> 
+			<date><![CDATA[11/01/09]]></date> 
+			<link><![CDATA[<a href="http://www.talladegasuperspeedway.com/" target="_blank">Talladega Superspeedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Dickies 500]]></raceTitle>
+			<date><![CDATA[11/08/09]]></date> 
+			<link><![CDATA[<a href="http://www.texasmotorspeedway.com/" target="_blank">Texas Motor Speedway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Checker O'Reilly Auto Parts 500 presented by Pennzoil]]></raceTitle> 		
+			<date><![CDATA[11/15/09]]></date> 
+			<link><![CDATA[<a href="http://www.phoenixinternationalraceway.com/" target="_blank">Phoenix International Raceway</a>]]></link>
+		</race>
+		<race>
+			<raceTitle><![CDATA[Ford 400]]></raceTitle>	
+			<date><![CDATA[11/22/09]]></date> 
+			<link><![CDATA[<a href="http://www.homesteadmiamispeedway.com/" target="_blank">Homestead-Miami Speedway</a>]]></link>
+		</race>
+	</schedule>
+	
+	<standings title="NASCAR Standings:">
+			<rank>
+				<position><![CDATA[1]]></position>
+				<driver><![CDATA[Matt Kenseth]]></driver>
+				<carNumber><![CDATA[17]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[2]]></position>
+				<driver><![CDATA[Jeff Gordon]]></driver>
+				<carNumber><![CDATA[24]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[3]]></position>
+				<driver><![CDATA[Kurt Busch]]></driver>
+				<carNumber><![CDATA[2]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[4]]></position>
+				<driver><![CDATA[Tony Stewart]]></driver>
+				<carNumber><![CDATA[14]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[5]]></position>
+				<driver><![CDATA[Greg Biffle]]></driver>
+				<carNumber><![CDATA[16]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[6]]></position>
+				<driver><![CDATA[Clint Bowyer]]></driver>
+				<carNumber><![CDATA[33]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[7]]></position>
+				<driver><![CDATA[Michael Waltrip]]></driver>
+				<carNumber><![CDATA[55]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[8]]></position>
+				<driver><![CDATA[David Ragan]]></driver>
+				<carNumber><![CDATA[6]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[9]]></position>
+				<driver><![CDATA[Carl Edwards]]></driver>
+				<carNumber><![CDATA[99]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[10]]></position>
+				<driver><![CDATA[Juan Montoya]]></driver>
+				<carNumber><![CDATA[42]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[11]]></position>
+				<driver><![CDATA[Elliott Sadler]]></driver>
+				<carNumber><![CDATA[19]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[12]]></position>
+				<driver><![CDATA[David Reutimann]]></driver>
+				<carNumber><![CDATA[00]]></carNumber>
+			</rank>
+			<rank>
+				<position><![CDATA[37]]></position>
+				<driver><![CDATA[Joey Logano]]></driver>
+				<carNumber><![CDATA[20]]></carNumber>
+			</rank>
+		</standings>
+</playlist>
