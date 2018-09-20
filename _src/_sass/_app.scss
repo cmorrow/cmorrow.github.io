@@ -86,6 +86,61 @@ img {
 
 }
 
+// portfolio
+.portfolio {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0;
+
+	.sample {
+		float: left;
+		width: 300px;
+		margin: 15px 0 0 15px;
+	}
+	
+	.sample p {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	
+	img {
+		border: solid 1px #cecece;
+		display: block;
+	}
+	
+	a,
+	a:hover,
+	a:visited {
+		color: #336699;
+		border: none;
+	}
+	
+	.sample a {
+		font-size: 11px;
+		color: #336699;
+	}
+	
+	.clear {
+		clear: both;
+	}
+	
+	.divider {
+		clear: both;
+		width: 930px;
+		margin: 15px auto 0 auto;
+		height: 1px;
+		overflow: hidden;
+		background: #cecece;
+	}
+	
+	.note {
+		font-size: .8em;
+		font-style: italic;
+	}
+}
+
+
+
 @media #{$small-up} {
 	.sidebar-wrapper:after {
 		display:none;

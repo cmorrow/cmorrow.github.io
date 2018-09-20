@@ -2,100 +2,11 @@
 title: "Portfolio"
 layout: page
 ---
-<style media=screen>
-    * {
-        outline: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        font-family: Helvetica, Arial;
-        font-size: 1em;
-        background: url('images/bg.jpg') repeat-y 50% top;
-    }
-    
-    h1 {
-        width: 930px;
-        margin: 0 auto;
-        font-size: 1.5em;
-        font-weight: normal;
-        font-style: italic;
-        padding: 10px 0 0 0;
-        color: #666;
-        background: #fff;
-        border-bottom: dotted 1px #333;
-    }
-    
-    h3 {
-        color: #336699;
-        font-size: .8em;
-        margin-bottom: 2px;
-    }
-    
-    h4 {
-        color: #336699;
-        font-size: .6em;
-        margin-bottom: 2px;
-        font-weight: normal;
-    }
-    
-    #wrapper {
-        width: 960px;
-        margin: 0 auto;
-        padding: 10px 0;
-    }
-    
-    .sample {
-        float: left;
-        width: 300px;
-        margin: 15px 0 0 15px;
-    }
-    
-    .sample p {
-        margin-top: 5px;
-        font-size: 12px;
-    }
-    
-    img {
-        border: solid 1px #cecece;
-        display: block;
-    }
-    
-    a,
-    a:hover,
-    a:visited {
-        color: #336699;
-        border: none;
-    }
-    
-    .sample a {
-        font-size: 11px;
-        color: #336699;
-    }
-    
-    .clear {
-        clear: both;
-    }
-    
-    .divider {
-        clear: both;
-        width: 930px;
-        margin: 15px auto 0 auto;
-        height: 1px;
-        overflow: hidden;
-        background: #cecece;
-    }
-    
-    .note {
-        font-size: .8em;
-        font-style: italic;
-    }
-    </style>
+
 <div class="sidebar-wrapper">
   <div class="row">
       <div class="column sm-12">
-        <div id="wrapper">
+        <div class="portfolio">
           <h1>Chris Morrow - Portfolio (2008-2010)</h1>
           <div class="sample">
               <h3>Monde Group</h3>
