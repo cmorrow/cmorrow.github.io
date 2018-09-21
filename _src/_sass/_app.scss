@@ -88,14 +88,18 @@ img {
 
 // portfolio
 .portfolio {
-	width: 960px;
-	margin: 0 auto;
+	width: 1100px;
 	padding: 10px 0;
 
 	.sample {
 		float: left;
 		width: 300px;
-		margin: 15px 0 0 15px;
+		margin: 15px 60px 0 0;
+
+		&.last {
+			margin-right: 0;
+			@extend .cf;
+		}
 	}
 	
 	.sample p {
@@ -126,7 +130,6 @@ img {
 	
 	.divider {
 		clear: both;
-		width: 930px;
 		margin: 15px auto 0 auto;
 		height: 1px;
 		overflow: hidden;

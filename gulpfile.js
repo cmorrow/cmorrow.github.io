@@ -1,20 +1,19 @@
-var $ = require('gulp-load-plugins')();
 const browserSync = require('browser-sync').create();
 const reload      = browserSync.reload;
 
 const path = require('path');
 const gulp = require('gulp');
+const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps')
+
 const run = require('gulp-run');
 const concat = require('gulp-concat');
-const gutil = require('gulp-util');
 const imagemin = require('gulp-imagemin');
 const size = require('gulp-size');
-const sass = require('gulp-sass');
+
 const autoprefixer = require('gulp-autoprefixer');
+const log = require('fancy-log');
 const gulpif = require('gulp-if');
-const webpack = require('webpack');
-const gulpWebpack = require('webpack-stream');
-const cp          = require('child_process');
 
 const src = '_src';
 const site = '_site';
@@ -24,13 +23,11 @@ const jsFiles = src + '/js/**/*.js';
 const htmlFiles = ['./_config.yml', './*.{md,markdown,html}', './_drafts/**/*.{md,markdown,html}', 
     './tag/**/*.html', './category/**/*.html',
     './_includes/**/*.{md,markdown,html}', './_layouts/**/*.{md,markdown,html}', 
-    './_posts/**/*.{md,markdown,html}'
+    './_posts/**/*.{md,markdown,html}', './portfolio/**/*.{md,markdown,html}'
     ];
 
 // check for production flag
 const PRODUCTION = !!(process.argv.production);
-
-gutil.log('PRODUCTION is set: ' + PRODUCTION);
 
 const paths = {
   jekyll: './',
@@ -47,8 +44,8 @@ const paths = {
 gulp.task('sass', () => {
 
   gulp.src(src + '/_sass/main.scss')
-    .pipe($.sourcemaps.init())
-    .pipe($.sass({
+    .pipe(sourcemaps.init())
+    .pipe(sass({
       outputStyle: 'nested',
       precision: 10,
       includePaths: paths.sass,
@@ -56,7 +53,7 @@ gulp.task('sass', () => {
     }))
     .pipe(concat('main.css'))
     .pipe(autoprefixer({browsers: ['last 2 versions', 'ie >= 10']}))
-    .pipe($.sourcemaps.write())
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest(paths.siteCss))
     .pipe(gulp.dest(paths.jekyllCss))
     .pipe(reload({stream: true}));
@@ -66,8 +63,8 @@ gulp.task('sass', () => {
 // In production, the file is minified
 gulp.task('javascript', () => {
   gulp.src([src + '/js/global/**/*.js', src + '/js/vendor/**/*.js'])
-    .pipe($.sourcemaps.init())
-    .pipe(gulpif(!PRODUCTION, $.sourcemaps.write()))
+    .pipe(sourcemaps.init())
+    .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(concat('app.js'))
     .pipe(gulp.dest(paths.siteJs)) // gulp local dev
     .pipe(gulp.dest('./assets/js')) // jekyll
@@ -75,8 +72,8 @@ gulp.task('javascript', () => {
 
     // copy page-specific js
     gulp.src(src + '/js/*.js')
-    .pipe($.sourcemaps.init())
-    .pipe(gulpif(!PRODUCTION, $.sourcemaps.write()))
+    .pipe(sourcemaps.init())
+    .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(gulp.dest(paths.siteJs)) // gulp local dev
     .pipe(gulp.dest('./assets/js')) // jekyll
     .pipe(reload({stream: true}));
@@ -95,35 +92,21 @@ gulp.task('images', function() {
 
 gulp.task('jekyll', function(done) {
 
-  var shellCommand = 'jekyll build';
+  var shellCommand = 'bundle exec jekyll build';
   shellCommand += ' --config _config.yml --drafts --watch';
 
   var i = process.argv.indexOf("--incremental");
 
   if(i > -1) {
-    gutil.log('process.argv: ' + process.argv[i]);
     shellCommand += ' --incremental';
   }
 
   return gulp.src(paths.jekyll)
     .pipe(run(shellCommand))
-    .on('error', gutil.log);
-
-  const jekyllLogger = (buffer) => {
-    buffer.toString()
-      .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
-  };
-
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);
 
 });
 
-
-
 gulp.task('serve', () => {
-
   browserSync.init({
     port: 4000,
     server: {
@@ -146,4 +129,7 @@ gulp.task('watch', () => {
 
 });
 
-gulp.task('default', ['sass', 'images', 'javascript', 'serve', 'watch', 'jekyll']);
+gulp.task('default', ['sass', 'images', 'javascript', 'serve', 'watch']);
+// gulp.task('default', () => {
+//   log('Gulp task ran!!!');
+// });

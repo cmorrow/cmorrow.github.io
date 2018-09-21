@@ -226,7 +226,7 @@ end
 # rake build
 desc "Build the site"
 task :build do
-  execute("jekyll build")
+  execute("bundle exec jekyll build")
 end
 
 # rake deploy["Commit message"]
